@@ -164,21 +164,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Serviços Cliente:
 ### Cadastro/Login:
-- Características:
+- Características: Este serviço permite que cliente realize cadastro de uma conta personalizada. Aqui o usuário ainda poderá fazer login no aplicativo, alterar senha ou até mesmo deletar sua conta.
 
 ### Agendamentos:
-- Características:
-  
-### Pagamento de serviços:
-- Características:
+- Características: Este serviço permite que o cliente veja a lista de salões disponíveis (que estejam cadasrados na aplicação) de acordo com sua região (raio de 20 km). Uma vez escolhido, o usuário poderá realizar o agendamento de atendimento de acordo com a lista de serviços oferecidos por cada estabelecimento, escolher o profissional do estabelecimento e até mesmo classificar com uma pontuação a qualidade do atendimento. Também existe a possibilidade de usar a função "dar like" e adicionar comentarários. O usuário tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento previamente apresentadas.
 
 ## Serviços Salão
 ### Cadastro/Login:
-- Características:
+- Características: Este serviço permite que o salão realize cadastro da conta, serviços oferecidos, profissionais e informações gerais. Aqui o dono do salão também poderá fazer login no aplicativo, alterar senha ou até mesmo deletar sua conta.
   
 ### Controle de agenda:
-- Características:
-
+- Características: Este serviço permite que o estabelecimento veja a lista de agendamentos efetuados em seu calendário. Os profissionais ou o gestor do estabelecimento tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento.
 # Arquitetura da Solução
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
