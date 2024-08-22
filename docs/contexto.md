@@ -175,10 +175,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 - Características: Este serviço permite que o estabelecimento veja a lista de agendamentos efetuados em seu calendário. Os profissionais ou o gestor do estabelecimento tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento.
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
-
+Versão 1 - Esboço - Usando Event Driven (Kafka Broker) e microserviços -->>> (melhorar arquitetura)
+<img src = "img/HighLevelArchitecture.jpg">
 
 ## Tecnologias Utilizadas
 
