@@ -5,11 +5,7 @@ Hoje em dia a tecnologia desempenha muito importante na sociedade, melhorando as
 Neste contexto, o projeto "Gestão de Salão" surgiu para atender às necessidades dos clientes, melhorando a experiência, além de utilizar a inovação digital para melhorar processos. Este projeto foi pensado para transformar esse setor do mercado, criando uma plataforma onde os usuários podem agendar serviços, acessar promoções e realizar check-ins de forma rápida e prática pelo smartphone.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Como o uso de uma plataforma digital pode melhorar a experiência do cliente em salões de beleza?
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
