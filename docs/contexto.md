@@ -176,7 +176,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Arquitetura da Solução
 
 Versão 1 - Esboço - Usando Event Driven (Kafka Broker) e microserviços -->>> (melhorar arquitetura)
-<img src = "img/HighLevelArchitecture.jpg">
+<img src = "img/HighLevelArchitectureV2.jpg">
 
 ## Tecnologias Utilizadas
 
