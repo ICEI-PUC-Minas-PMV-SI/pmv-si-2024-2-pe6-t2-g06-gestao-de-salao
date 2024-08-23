@@ -124,12 +124,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 https://miro.com/welcomeonboard/QlVxYUtWaVJ0YVRmZ2NZTHQwYUtBM2k1blBYeU5RR0Q2ZU03ZjhqV2trWHZrZTRJU0NoZjl1dTliTUN6VE9SdnwzNDU4NzY0NTk3Mzc1MTY3ODc0fDI=?share_link_id=369291618323
 
-### Requisitos não Funcionais
+## Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| *ID*      | *Categoria*      | *Descrição*                                                                                                                                                                      | *Prioridade* |
+|-----------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| RNF-01    | *Desempenho*     | *Tempo de Resposta*: A aplicação deve carregar as principais funcionalidades, como login e seleção de serviços, em até 1 segundo, idealmente medido em milissegundos.             | Alta         |
+| RNF-02    |     | *Escalabilidade*: O sistema deve suportar entre 20 a 100 acessos simultâneos sem perda significativa de desempenho.                                                              | Média        |
+| RNF-03    |      | *Capacidade de Processamento*: A aplicação deve ser capaz de processar múltiplas requisições simultâneas, especialmente durante horários de pico, sem afetar a performance.       | Alta         |
+| RNF-04    | *Usabilidade*    | *Interface Amigável*: A interface deve ser intuitiva e otimizada para dispositivos móveis, facilitando o acesso a informações e a navegação entre as páginas de cadastro, escolha de serviços e agendamento. | Alta         |
+| RNF-05    |     | *Compatibilidade com Dispositivos Móveis*: A aplicação deve ser responsiva e garantir uma excelente experiência em dispositivos móveis, incluindo smartphones e tablets que utilizem Android e iOS. | Alta         |
+| RNF-06    |     | *Documentação Básica*: Incluir uma breve documentação ou tutorial que ajude os usuários a entender como usar a aplicação.                                                         | Média        |
+| RNF-07    | *Segurança*      | *Autenticação*: Implementar autenticação básica, garantindo que apenas pessoas autorizadas possam acessar ou modificar informações.                                                | Alta         |
+| RNF-08    |       | *Hashing Simples*: Implementar hashing para senhas utilizando um algoritmo de pelo menos 256 bits para garantir a segurança.                                                     | Alta         |
+| RNF-09    |       | *Proteção de Dados Pessoais*: Armazenar dados pessoais dos usuários de forma segura, utilizando o hashing de senhas especificado acima.                                           | Alta         |
+| RNF-10    | *Confiabilidade* | *Backup Semanal*: Realizar backups semanais dos dados críticos. Nos bastidores, o backup deve ser automatizado para garantir a segurança e a recuperação dos dados.               | Média        |
+| RNF-11    |  | *Estabilidade Básica*: A aplicação deve funcionar de forma estável durante as demonstrações e testes, sem quedas frequentes.                                                     | Alta         |
+| RNF-12    | *Maneabilidade*  | *Código Limpo e Bem Comentado*: Esta prática é recomendada, mas não é um requisito não funcional. Garantir um código organizado e comentado facilita a manutenção e a compreensão por outros desenvolvedores. | Baixa        |
+| RNF-13    | *Portabilidade*  | *Compatibilidade com Sistemas Operacionais*: A aplicação deve ser compatível com dispositivos móveis rodando Android e iOS.                                                      | Alta         |
+| RNF-14    | *Escalabilidade* | *Suporte para Usuários Simultâneos*: O sistema deve suportar de 20 a 100 acessos simultâneos sem perda de performance, permitindo uma escalabilidade básica adequada ao contexto de demonstração. | Média        |
+      |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
