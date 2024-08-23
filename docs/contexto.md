@@ -10,20 +10,15 @@ Como o uso de uma plataforma digital pode melhorar a experiência do cliente em 
 
 ## Objetivos
 
-Objetivo geral: o projeto tem como objetivo estreitar ao máximo a relação entre clientes e estabelecimentos comerciais que prestem serviços de beleza pessoal.
+Objetivo geral: desenvolvimento de uma aplicação distribuída para gestão de Salão.
 Delimitação: iremos nos focar apenas em serviços de beleza.
 
 O objetivo da criação da aplicação é a ideia de maximizar o contato entre clientes e salões. Com a ideia, pretendemos implementar um modo onde cada usuário final possa escolher o melhor serviço e local, com uma pesquisa mais simples e limpa. Ofereceremos praticidade, segurança, conforto, otimização, flexibilidade e modernidade, tanto aos salões, quanto aos clientes.
 
-Nossa principal pesquisa será feita em cima de usuários finais da aplicação: da parte do cliente, iremos atrás de definir quais as melhores funcionalidades para facilitar o uso; da parte do salão, iremos investigar a melhor forma de mostrar todos os serviços oferecidos.
-
 
 ## Justificativa
 
-A justificativa se baseia na possibilidade de facilitar e diminuir a rotina dos usuários de serviço de beleza, dispensando grandes pesquisas como área, endereço e serviços prestados.
-Queremos alcançar a máxima de agilidade e flexibilidade dos usuários finais, tornando assim a aplicação uma ferramenta aliada poderosa para o dia-a-dia dos salões e recorrente no cliente.
-Vamos optar por um trabalho investigativo com analises de sites de buscas confiáveis e de opinião de usuários do serviço prestado.
-
+Faremos uma aplicação que possa ser estudada e reaproveitada futuramente. A ideia é treinarmos fundamentos de sistema distribuído, integrando o desenvolvimento web e o mobile.
 
 ## Público-Alvo
 
