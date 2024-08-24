@@ -42,9 +42,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |--------|---------------------------------------------------------------------------------------------------------------|----------------------|------------|
 | RF-001 | O sistema deve permitir gestão de usuário.                                                                     | USUÁRIO     | ALTA       |
 | RF-002 | O sistema deve permitir gestão de agenda.                                                                      | AGENDA      | ALTA       |
-| RF-003 | O sitema deve permitir gestão de serviços, tais como: serviços oferecidos, qr code service, baixa no sistema, histórico, reviews e etc.       | SERVIÇOS    | ALTA  |
+| RF-003 | O sitema deve permitir gestão de serviços, tais como: serviços oferecidos, qr code service, baixa no sistema, histórico, reviews e etc.       | SERVIÇOS    | BAIXA  |
 | RF-004 | O sistema deve possuir sistema de autenticação                                                                  | SEGURANÇA   | MÉDIA      |
-| RF-005 | O sistema deve possuir gestão de carrinho                                                                       | PESQUISA     | ALTA      |
+| RF-005 | O sistema deve possuir gestão de carrinho                                                                       | PAGAMENTO  | ALTA      |
 | RF-006 | O sistema deve possuir sistema de notificação                                                                   | MENSAGEM   | BAIXA     |
 
 
