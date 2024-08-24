@@ -40,34 +40,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                                                                         | Tipo                 | Prioridade |
 |--------|---------------------------------------------------------------------------------------------------------------|----------------------|------------|
-| RF-001 | Cadastro de Usuário: O sistema deve permitir que o cliente realize um cadastro utilizando email e senha.       | TELA DE LOGIN        | ALTA       |
-| RF-002 | Seleção de Tipo de Usuário: O cliente deve poder escolher se deseja se cadastrar como cliente ou salão.        | TELA DE LOGIN        | ALTA       |
-| RF-003 | Agendamento de Serviços: O cliente deve poder visualizar e agendar serviços disponíveis em diferentes salões.  | TELA DE SERVIÇOS     | ALTA       |
-| RF-004 | Cancelamento de Agendamento: O cliente deve poder cancelar agendamentos com um prazo definido.                 | TELA DE SERVIÇOS     | MÉDIA      |
-| RF-005 | Visualização de Promoções: O cliente deve ter acesso a promoções exclusivas oferecidas pelos salões parceiros. | TELA DE PROMOÇÕES    | MÉDIA      |
-| RF-006 | Check-in Digital: O cliente deve poder realizar o check-in digital ao chegar no salão para um serviço agendado.| TELA DE CHECK-IN     | ALTA       |
-| RF-007 | Avaliação de Serviços: O cliente deve poder avaliar os serviços recebidos e dar feedback ao salão.             | TELA DE AVALIAÇÕES   | MÉDIA      |
-| RF-008 | Consulta de Histórico: O cliente deve poder consultar o histórico de serviços realizados e agendamentos.       | TELA DE HISTÓRICO    | MÉDIA      |
-| RF-009 | Notificações: O sistema deve enviar notificações para lembrar os clientes de seus agendamentos e promoções.    | SISTEMA DE NOTIFICAÇÃO | MÉDIA   |
-| RF-010 | Pesquisa de Salões: O cliente deve poder buscar salões por localização, tipo de serviço, e avaliações.         | TELA DE PESQUISA     | ALTA       |
+| RF-001 | O sistema deve permitir gestão de usuário.                                                                     | USUÁRIO     | ALTA       |
+| RF-002 | O sistema deve permitir gestão de agenda.                                                                      | AGENDA      | ALTA       |
+| RF-003 | O sitema deve permitir gestão de serviços, tais como: serviços oferecidos, qr code service, baixa no sistema, histórico, reviews e etc.       | SERVIÇOS    | ALTA  |
+| RF-004 | O sistema deve possuir sistema de autenticação                                                                  | SEGURANÇA   | MÉDIA      |
+| RF-005 | O sistema deve possuir gestão de carrinho                                                                       | PESQUISA     | ALTA      |
+| RF-006 | O sistema deve possuir sistema de notificação                                                                   | MENSAGEM   | BAIXA     |
 
 
-
-
-
-
-
-
-
-|ID    | Descrição do Requisito  | Tipo |  Prioridade |
-|------|-------------------------|----------------|----|
-|RF-001| Cadastro de Usuário | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
-|RF-002| Busca e Seleção de Salões | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
-|RF-003| Visualização de Serviços e Preços | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
-|RF-004| Agendamento de Serviços | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
-|RF-005| Cancelamento e Reagendamento de Serviços | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
-|RF-006|  | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
-|RF-007|  | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
 
 
 ### Requisitos Não Funcionais
