@@ -5,7 +5,11 @@ Hoje em dia a tecnologia desempenha muito importante na sociedade, melhorando as
 Neste contexto, o projeto "Gestão de Salão" surgiu para atender às necessidades dos clientes, melhorando a experiência, além de utilizar a inovação digital para melhorar processos. Este projeto foi pensado para transformar esse setor do mercado, criando uma plataforma onde os usuários podem agendar serviços, acessar promoções e realizar check-ins de forma rápida e prática pelo smartphone.
 
 ## Problema
-Como o uso de uma plataforma digital pode melhorar a experiência do cliente em salões de beleza?
+
+- Procura de salão
+- Pagamentos(tabela preço dos serviços)
+- Reviews
+
 
 
 ## Objetivos
