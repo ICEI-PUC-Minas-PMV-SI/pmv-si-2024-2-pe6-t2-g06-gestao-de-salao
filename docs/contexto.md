@@ -6,11 +6,11 @@ Neste contexto, o projeto "Gestão de Salão" surgiu para atender às necessidad
 
 ## Problema
 
-- Procura de salão
-- Pagamentos(tabela preço dos serviços)
-- Reviews
+Em entrevista com algumas pessoas localizadas na cidade de Minas Gerias, descobrimos um problema pouco explorado por empresas de maneira geral.
 
+As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização de. Não existe um aplicativo que realize esse serviço. Sem opções, elas fazem a busca através do Google.
 
+A questão é que o Google é precário no que diz respeito a qualidade e volume de informações. Nem todo salão permite marcação e até mesmo deixa disponível informações relevantes como informações classificação, reviews, valores por serviço, horário etc.
 
 ## Objetivos
 
@@ -89,8 +89,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ### Cadastro/Login:
 - Características: Este serviço permite que cliente realize cadastro de uma conta personalizada. Aqui o usuário ainda poderá fazer login no aplicativo, alterar senha ou até mesmo deletar sua conta.
 
+### Localização/Busca de salões:
+- Características: Este serviço permite que o cliente veja a lista de salões disponíveis (que estejam cadasrados na aplicação) de acordo com sua região (raio de 20 km).
+
 ### Agendamentos:
-- Características: Este serviço permite que o cliente veja a lista de salões disponíveis (que estejam cadasrados na aplicação) de acordo com sua região (raio de 20 km). Uma vez escolhido, o usuário poderá realizar o agendamento de atendimento de acordo com a lista de serviços oferecidos por cada estabelecimento, escolher o profissional do estabelecimento e até mesmo classificar com uma pontuação a qualidade do atendimento. Também existe a possibilidade de usar a função "dar like" e adicionar comentarários. O usuário tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento previamente apresentadas.
+- Características: Esse serviço permitirá que o usuário poderá realizr o agendamento de atendimento de acordo com a lista de serviços oferecidos por cada estabelecimento, escolher o profissional do estabelecimento e até mesmo classificar com uma pontuação a qualidade do atendimento. O usuário tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento previamente apresentadas.
 
 ## Serviços Salão
 ### Cadastro/Login:
