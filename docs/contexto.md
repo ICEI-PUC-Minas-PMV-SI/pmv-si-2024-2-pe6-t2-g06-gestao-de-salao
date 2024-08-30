@@ -6,11 +6,7 @@ Neste contexto, o projeto "Gestão de Salão" surgiu para atender às necessidad
 
 ## Problema
 
-Em entrevista com algumas pessoas localizadas na cidade de Minas Gerias, descobrimos um problema pouco explorado por empresas de maneira geral.
-
-As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização de. Não existe um aplicativo que realize esse serviço. Sem opções, elas fazem a busca através do Google.
-
-A questão é que o Google é precário no que diz respeito a qualidade e volume de informações. Nem todo salão permite marcação e até mesmo deixa disponível informações relevantes como informações classificação, reviews, valores por serviço, horário etc.
+Em entrevista com algumas pessoas localizadas na cidade de Minas Gerias, descobrimos um problema pouco explorado por empresas de tecnologia. As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização dessas informações.
 
 ## Objetivos
 
@@ -43,8 +39,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-001 | O sistema deve permitir gestão de usuário.                                                                     | USUÁRIO     | ALTA       |Nome Aqui       |
 | RF-002 | O sistema deve permitir gestão de agenda.                                                                      | AGENDA      | ALTA       |Nome Aqui        |
 | RF-003 | O sitema deve permitir gestão de serviços, tais como: serviços oferecidos, qr code service, baixa no sistema, histórico, reviews e etc.       | SERVIÇOS    | BAIXA  |Nome Aqui        |
-| RF-005 | O sistema deve possuir gestão de carrinho                                                                       | PAGAMENTO  | ALTA      |Nome Aqui        |
-| RF-006 | O sistema deve possuir sistema de notificação                                                                   | MENSAGEM   | BAIXA     |Nome Aqui        |
+| RF-004 | O sistema deve possuir gestão de carrinho                                                                       | PAGAMENTO  | ALTA      |Nome Aqui        |
+| RF-005 | O sistema deve possuir sistema de notificação                                                                   | MENSAGEM   | BAIXA     |Nome Aqui        |
 
 
 
