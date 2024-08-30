@@ -38,14 +38,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                                                                         | Tipo                 | Prioridade |
-|--------|---------------------------------------------------------------------------------------------------------------|----------------------|------------|
-| RF-001 | O sistema deve permitir gestão de usuário.                                                                     | USUÁRIO     | ALTA       |
-| RF-002 | O sistema deve permitir gestão de agenda.                                                                      | AGENDA      | ALTA       |
-| RF-003 | O sitema deve permitir gestão de serviços, tais como: serviços oferecidos, qr code service, baixa no sistema, histórico, reviews e etc.       | SERVIÇOS    | BAIXA  |
-| RF-004 | O sistema deve possuir sistema de autenticação                                                                  | SEGURANÇA   | MÉDIA      |
-| RF-005 | O sistema deve possuir gestão de carrinho                                                                       | PAGAMENTO  | ALTA      |
-| RF-006 | O sistema deve possuir sistema de notificação                                                                   | MENSAGEM   | BAIXA     |
+| ID     | Descrição do Requisito                                                                                         | Tipo                 | Prioridade | Responsável |
+|--------|---------------------------------------------------------------------------------------------------------------|----------------------|------------|------------|
+| RF-001 | O sistema deve permitir gestão de usuário.                                                                     | USUÁRIO     | ALTA       |Nome Aqui       |
+| RF-002 | O sistema deve permitir gestão de agenda.                                                                      | AGENDA      | ALTA       |Nome Aqui        |
+| RF-003 | O sitema deve permitir gestão de serviços, tais como: serviços oferecidos, qr code service, baixa no sistema, histórico, reviews e etc.       | SERVIÇOS    | BAIXA  |Nome Aqui        |
+| RF-005 | O sistema deve possuir gestão de carrinho                                                                       | PAGAMENTO  | ALTA      |Nome Aqui        |
+| RF-006 | O sistema deve possuir sistema de notificação                                                                   | MENSAGEM   | BAIXA     |Nome Aqui        |
 
 
 
