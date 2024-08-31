@@ -31,7 +31,17 @@ O primeiro passo é definir os objetivos da sua API. O que você espera alcança
 
 
 
+## Objetivos
 
+Objetivo geral: desenvolvimento de uma aplicação distribuída para gestão de Salão.
+Delimitação: iremos nos focar apenas em serviços de beleza.
+
+O objetivo da criação da aplicação é a ideia de maximizar o contato entre clientes e salões. Com a ideia, pretendemos implementar um modo onde cada usuário final possa escolher o melhor serviço e local, com uma pesquisa mais simples e limpa. Ofereceremos praticidade, segurança, conforto, otimização, flexibilidade e modernidade, tanto aos salões, quanto aos clientes.
+
+
+## Justificativa
+
+Faremos uma aplicação que possa ser estudada e reaproveitada futuramente. A ideia é treinarmos fundamentos de sistema distribuído, integrando o desenvolvimento web e o mobile.
 
 |ID    | Descrição do Requisito  | Tipo |  Prioridade |
 |------|-------------------------|----------------|----|
