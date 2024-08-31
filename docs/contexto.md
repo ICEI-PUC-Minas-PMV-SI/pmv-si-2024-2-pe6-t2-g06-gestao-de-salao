@@ -14,10 +14,10 @@ Então, como desenvolver uma solução digital que centralize informações e fa
 
 O projeto tem como foco criar uma plataforma digital que centralize informações sobre salões de beleza, facilitando a vida dos consumidores. Com o projeto "Gestão de Salão", esperamos:
 
--Desenvolver um aplicativo que ajude os usuários a encontrar salões próximos, filtrando por localização, tipo de serviço, horários disponíveis e avaliações de outros clientes.
--Permitir que os clientes agendem serviços, acessem promoções e façam check-ins de maneira rápida e prática pelo smartphone.
--Melhorar a comunicação entre clientes e salões, reduzindo o tempo de espera e organizando melhor os horários.
--Fornecer aos donos de salões ferramentas que ajudem no controle de agendas, estoques e no relacionamento com os clientes.
+- Desenvolver um aplicativo que ajude os usuários a encontrar salões próximos, filtrando por localização, tipo de serviço, horários disponíveis e avaliações de outros clientes.
+- Permitir que os clientes agendem serviços, acessem promoções e façam check-ins de maneira rápida e prática pelo smartphone.
+- Melhorar a comunicação entre clientes e salões, reduzindo o tempo de espera e organizando melhor os horários.
+- Fornecer aos donos de salões ferramentas que ajudem no controle de agendas, estoques e no relacionamento com os clientes.
 
 ## Justificativa
 
