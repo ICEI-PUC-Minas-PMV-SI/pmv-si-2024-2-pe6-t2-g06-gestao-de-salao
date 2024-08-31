@@ -6,9 +6,8 @@ Foi nesse contexto que surgiu o projeto "Gestão de Salão". Uma aplicação vol
 
 ## Problema
 
-Os salões de beleza, assim como diversos estabelecimentos em setores tradicionais do mercado, enfrentam desafios na adaptação de demandas do consumidor, que busca cada vez mais por conveniência, agilidade e personalização na prestação de serviços. Além disso, descobrimos um problema pouco explorado por empresas de tecnologia. As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização de informações.
-
-Então, como desenvolver uma solução digital que centralize informações e facilite o acesso a serviços de salões de beleza, proporcionando uma experiência mais conveniente e personalizada aos consumidores?
+Identificamos a dificuldade de encontrar salões de beleza de qualidade, após experiência de uma integrante do grupo. A diversidade de salões e a falta de uma plataforma centralizada dificultam a escolha do estabelecimento ideal. Frequentemente, a busca por um salão resulta em horas gastas navegando por sites desatualizados, redes sociais com informações incompletas ou mesmo a tentativa e erro, o que pode levar a experiências frustrantes.
+Essa dificuldade se intensifica quando se busca um salão que ofereça serviços específicos, como um corte especializado ou tratamentos de beleza personalizados, que muitas vezes não estão bem descritos online. Além disso, a falta de avaliações confiáveis e a ausência de sistemas de agendamento online em muitos salões da região contribuem para a insegurança na escolha, levando muitas pessoas a optarem por salões distantes ou conhecidos apenas por indicação, mesmo que não sejam os mais convenientes.
 
 ## Objetivos
 
