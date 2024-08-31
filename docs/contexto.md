@@ -101,18 +101,20 @@ Versão 3
 
 ## Tecnologias Utilizadas
 
+### Backend
 - .NET Core
-- JavaScript / TyperScipt
-- React Native / React 
-- AWS - EC2/VPC/RDS/S3 Bucket
+- AWS - EC2/VPC/RDS
+### Frontend
+#### Frontend Web
+- React / TS / JS
+- AWS - S3 Bucket
+#### Frontend Mobile
+- React Native / JS / TS
+### Testes
+- Postman
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A solução proposta será implementada utilizando os serviços de computação em nuvem da Amazon Web Services (AWS). A escolha da AWS se deve à sua ampla gama de serviços de infraestrutura, que incluem recursos de armazenamento, computação e rede de alta performance, além de atender aos critérios de segurança e conformidade exigidos pelo mercado. Essa infraestrutura permite que os recursos sejam escalados automaticamente, de acordo com a demanda dos usuários, garantindo uma operação eficiente e ininterrupta, mesmo durante períodos de pico de acesso.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A plataforma será disponibilizada por meio de um portal web responsivo e aplicativos móveis nativos para os sistemas operacionais iOS e Android. Essas interfaces permitirão que os usuários realizem ações como criação de contas, pesquisa de voos, compra de bilhetes e gerenciamento de reservas de forma integrada. A interface foi planejada com foco na experiência do usuário, priorizando a navegabilidade e a usabilidade para facilitar o acesso às principais funcionalidades.
