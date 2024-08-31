@@ -1,6 +1,6 @@
 # Introdução
 
-Atualmente a tecnologia desempenha muito importante na sociedade, melhorando aspectos de nossa vida e a forma como interagimos com o mundo ao nosso redor. Com seu avanço e expansão pelo mercado global, suas aplicações se expandem para diversas áreas. O aumento da demanda por facilidade no uso de serviços e experiências personalizadas tem impulsionado o uso da tecnologia no gerenciamento de empresas de setores considerados tradicionais, permitindo que ofereçam uma experiência mais satisfatória ao cliente.
+Atualmente a tecnologia desempenha um papel muito importante na sociedade, melhorando aspectos de nossa vida e a forma como interagimos com o mundo ao nosso redor. Com seu avanço e expansão pelo mercado global, suas aplicações se expandem para diversas áreas. O aumento da demanda por facilidade no uso de serviços e experiências personalizadas tem impulsionado o uso da tecnologia no gerenciamento de empresas de setores considerados tradicionais, permitindo que ofereçam uma experiência mais satisfatória ao cliente.
 
 Foi nesse contexto que surgiu o projeto "Gestão de Salão". Uma aplicação voltada para atender às necessidades dos clientes dos salões, melhorando sua experiência. Além disso, a aplicação também é foi pensada para melhorar alguns processos básicos de controle interno. Este projeto visa transformar digitalmente o setor de salões de beleza, por meio da criação de uma plataforma que permite aos usuários agendar serviços, acessar promoções e realizar check-ins de forma rápida e prática pelo smartphone. 
 
