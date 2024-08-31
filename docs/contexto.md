@@ -92,7 +92,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ### Agendamentos:
 - Características: : Esse serviço permite que o usuário realize o agendamento de atendimentos de acordo com a lista de serviços oferecidos por cada estabelecimento. O cliente pode escolher o profissional do salão e classificar o atendimento com uma pontuação. O usuário também terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento previamente apresentadas.
-- 
+  
 ## Serviços Salão
 ### Cadastro/Login:
 - Características:Este serviço permite que o salão realize o cadastro da conta, dos serviços oferecidos, dos profissionais e das informações gerais. O proprietário do salão também pode fazer login no aplicativo, alterar a senha ou até mesmo deletar sua conta.
