@@ -72,7 +72,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Deve ser desenvolvido uma aplicação web               |
 |03| Deve ser desenvolvida uma aplicação mobile            |
-
+|04| Deve ser desenvolvida uma API Backend                 |
 
 
 # Catálogo de Serviços
@@ -96,14 +96,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
   
 # Arquitetura da Solução
 
-Versão 1 - Esboço -->>> (melhorar arquitetura)
+Versão 3 
 <img src = "img/HighLevelArchitectureV3.jpg">
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- .NET Core
+- JavaScript / TyperScipt
+- React Native / React 
+- AWS - EC2/VPC/RDS/S3 Bucket
 
 ## Hospedagem
 
