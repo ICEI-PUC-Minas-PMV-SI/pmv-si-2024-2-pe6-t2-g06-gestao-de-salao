@@ -8,17 +8,20 @@ Foi nesse contexto que surgiu o projeto "Gestão de Salão". Uma aplicação vol
 
 Os salões de beleza, assim como diversos estabelecimentos em setores tradicionais do mercado, enfrentam desafios na adaptação de demandas do consumidor, que busca cada vez mais por conveniência, agilidade e personalização na prestação de serviços. Além disso, descobrimos um problema pouco explorado por empresas de tecnologia. As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização de informações.
 
+Então, como desenvolver uma solução digital que centralize informações e facilite o acesso a serviços de salões de beleza, proporcionando uma experiência mais conveniente e personalizada aos consumidores?
+
 ## Objetivos
 
-Objetivo geral: desenvolvimento de uma aplicação distribuída para gestão de Salão.
-Delimitação: iremos nos focar apenas em serviços de beleza.
+O projeto tem como foco criar uma plataforma digital que centralize informações sobre salões de beleza, facilitando a vida dos consumidores. Com o projeto "Gestão de Salão", esperamos:
 
-O objetivo da criação da aplicação é a ideia de maximizar o contato entre clientes e salões. Com a ideia, pretendemos implementar um modo onde cada usuário final possa escolher o melhor serviço e local, com uma pesquisa mais simples e limpa. Ofereceremos praticidade, segurança, conforto, otimização, flexibilidade e modernidade, tanto aos salões, quanto aos clientes.
-
+-Desenvolver um aplicativo que ajude os usuários a encontrar salões próximos, filtrando por localização, tipo de serviço, horários disponíveis e avaliações de outros clientes.
+-Permitir que os clientes agendem serviços, acessem promoções e façam check-ins de maneira rápida e prática pelo smartphone.
+-Melhorar a comunicação entre clientes e salões, reduzindo o tempo de espera e organizando melhor os horários.
+-Fornecer aos donos de salões ferramentas que ajudem no controle de agendas, estoques e no relacionamento com os clientes.
 
 ## Justificativa
 
-Faremos uma aplicação que possa ser estudada e reaproveitada futuramente. A ideia é treinarmos fundamentos de sistema distribuído, integrando o desenvolvimento web e o mobile.
+Muitos salões de beleza ainda não utilizam a tecnologia para melhorar a experiência dos clientes. Isso torna mais difícil para as pessoas encontrarem salões, agendarem horários e aproveitarem promoções de forma prática. Com esse projeto, buscamos criar uma solução simples e direta que ajude os clientes a encontrar o que precisam de forma rápida e ajude os salões a se organizarem melhor e atenderem seus clientes de maneira mais eficiente.
 
 ## Público-Alvo
 
@@ -82,20 +85,21 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Serviços Cliente:
 ### Cadastro/Login:
-- Características: Este serviço permite que cliente realize cadastro de uma conta personalizada. Aqui o usuário ainda poderá fazer login no aplicativo, alterar senha ou até mesmo deletar sua conta.
-
+- Características: Este serviço permite que o cliente realize o cadastro de uma conta personalizada. O usuário pode fazer login no aplicativo, alterar a senha ou até mesmo deletar sua conta.
+  
 ### Localização/Busca de salões:
-- Características: Este serviço permite que o cliente veja a lista de salões disponíveis (que estejam cadasrados na aplicação) de acordo com sua região (raio de 20 km).
+- Características: Este serviço permite que o cliente veja a lista de salões disponíveis (que estejam cadastrados na aplicação) de acordo com sua região, com um raio de até 20 km.
 
 ### Agendamentos:
-- Características: Esse serviço permitirá que o usuário poderá realizr o agendamento de atendimento de acordo com a lista de serviços oferecidos por cada estabelecimento, escolher o profissional do estabelecimento e até mesmo classificar com uma pontuação a qualidade do atendimento. O usuário tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento previamente apresentadas.
-
+- Características: : Esse serviço permite que o usuário realize o agendamento de atendimentos de acordo com a lista de serviços oferecidos por cada estabelecimento. O cliente pode escolher o profissional do salão e classificar o atendimento com uma pontuação. O usuário também terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento previamente apresentadas.
+- 
 ## Serviços Salão
 ### Cadastro/Login:
-- Características: Este serviço permite que o salão realize cadastro da conta, serviços oferecidos, profissionais e informações gerais. Aqui o dono do salão também poderá fazer login no aplicativo, alterar senha ou até mesmo deletar sua conta.
+- Características:Este serviço permite que o salão realize o cadastro da conta, dos serviços oferecidos, dos profissionais e das informações gerais. O proprietário do salão também pode fazer login no aplicativo, alterar a senha ou até mesmo deletar sua conta.
   
 ### Controle de agenda:
-- Características: Este serviço permite que o estabelecimento veja a lista de agendamentos efetuados em seu calendário. Os profissionais ou o gestor do estabelecimento tamém terá a opção de cancelar um agendamento de acordo com as políticas de cancelamento.
+- Características: Este serviço permite que o estabelecimento visualize a lista de agendamentos efetuados em seu calendário. Os profissionais ou o gestor do salão também terão a opção de cancelar um agendamento, conforme as políticas de cancelamento estabelecidas.
+  
 # Arquitetura da Solução
 
 Versão 1 - Esboço -->>> (melhorar arquitetura)
