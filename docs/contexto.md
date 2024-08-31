@@ -6,7 +6,7 @@ Foi nesse contexto que surgiu o projeto "Gestão de Salão". Uma aplicação vol
 
 ## Problema
 
-Em entrevista com algumas pessoas localizadas na cidade de Minas Gerias, descobrimos um problema pouco explorado por empresas de tecnologia. As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização dessas informações.
+Os salões de beleza, assim como diversos estabelecimentos em setores tradicionais do mercado, enfrentam desafios na adaptação de demandas do consumidor, que busca cada vez mais por conveniência, agilidade e personalização na prestação de serviços. Além disso, descobrimos um problema pouco explorado por empresas de tecnologia. As pessoas, em sua maioria mulheres, quando precisam realizar uma busca por salões de beleza, encontram dificuldade na centralização de informações.
 
 ## Objetivos
 
