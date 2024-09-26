@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mf-Carrinho-compras.props" />
+</Project>
