@@ -11,8 +11,6 @@ Com ele, os clientes podem efetuar um cadastro único, agendar horários e até 
 
 ## Integrantes
 
-## Add your files
-
 * Everton de Souza Kenedy
 * Lucas Marcio Nascimento Costa Lima
 * Roberto Santos de Almeida
