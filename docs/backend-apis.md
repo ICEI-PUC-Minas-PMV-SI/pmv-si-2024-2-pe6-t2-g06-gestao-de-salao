@@ -141,7 +141,7 @@ A ideia é desenvolver uma api REST utilizando a linguagem C#(contudo poderá ha
 |---|---|
 | C# | Implementação do Backend |
 | Asp.net core | Framework |
-| MySql | Banco de Dados |
+| SqlServer | Banco de Dados |
 | Autenticação | JWT |
 | ....... | Deploy da web api |
 
