@@ -12,7 +12,7 @@ Recursos Esperados:
 - Atualização de cadastros: Permite a atualização de informações dos clientes, como endereço, telefone, e-mail, etc.
 - Exclusão de clientes: Permitir a exclusão de registros de clientes do sistema.
 
-#### API de Agendamento de agendas: 
+#### API de Agendamento de serviços: 
 Objetivo: Facilitar a marcação de horários com agilidade diretamente pelo aplicativo.
 Recursos Esperados: 
 - Busca por salões: Permite que usuários localizem salões e mostre os serviços que eles oferecem.
@@ -48,7 +48,9 @@ A arquitetura das APIs da Gestão de Salão segue um padrão REST(Representation
 
 Controladores: Responsáveis por receber as requisições HTTP, processá-las e encaminhá-las para os serviços apropriados.
 Serviços: Lógica de negócios que manipula as operações CRUD e outras funcionalidades da aplicação.
-Modelo de Dados: Representação das entidades principais do sistema, como usuários, agendamentos e serviços.
+Modelo de Dados: Representação das entidades principais do sistema, como usuários, agendamentos, serviços e carrinho.
+
+
 
 
 
