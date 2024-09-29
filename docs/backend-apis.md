@@ -224,7 +224,7 @@ Para garantir os requisitos de confidenciabilidade e integridade da api, foi uti
 
 # Referências
 
-- Alguns tópicos do seguinte site: https://medium.com/beelabacademy
+- Alguns tópicos do seguinte site: https://medium.com/beelabacademy, como Domain Driven Design, Implementando na prática Rest API com conceitos de DDD + .NET CORE + SQL no Docker + IoC entre outros.
 - https://github.com/KleberSouza/mf-apis-web-services-fuel-manager/tree/master
 
 
