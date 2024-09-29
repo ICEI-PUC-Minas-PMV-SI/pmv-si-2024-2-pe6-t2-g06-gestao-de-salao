@@ -32,6 +32,8 @@ Recursos Esperados:
   11 Recuperar agendamentos dentro de um intervalo de datas(Administrador e profissional);
 
 
+
+
 #### API de Serviços: 
 Objetivo: Gerenciar o catálogo de serviços oferecidos pelos salões de beleza e facilitar o acesso dos clientes a esses serviços. Destinada a donos de salão para gestão interna e clientes que utilizam a plataforma para buscar e agendar serviços.
 Recursos Esperados: 
@@ -39,6 +41,10 @@ Recursos Esperados:
 - Consulta de serviços: Disponibilizar aos clientes uma lista detalhada de serviços oferecidos por cada salão, com filtros por tipo de serviço (corte de cabelo, manicure, tratamentos estéticos, etc.).
 - Atualização de portfólio: Permitir que os salões modifiquem o portfólio de serviços, incluindo novas opções ou ajustando as existentes.
 - Exclusão de serviços: Permitir que os donos de salão removam serviços que não são mais oferecidos.
+- Retornar serviços pelo Id de um profissional.
+
+
+
 
 #### API de Carrinho: 
 Objetivo: Gerenciar o carrinho de compras dos usuários, permitindo a seleção e gerenciamento de serviços antes da finalização do agendamento. Destinada a clientes que utilizam a plataforma para escolher serviços e realizar agendamentos. 
