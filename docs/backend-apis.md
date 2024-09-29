@@ -44,7 +44,11 @@ Recursos Esperados:
 
 ## Arquitetura
 
-[Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
+A arquitetura das APIs da Gestão de Salão segue um padrão REST(Representational State Transfer), onde cada recurso é representado por um endpoint específico. Os componentes principais incluem:
+
+Controladores: Responsáveis por receber as requisições HTTP, processá-las e encaminhá-las para os serviços apropriados.
+Serviços: Lógica de negócios que manipula as operações CRUD e outras funcionalidades da aplicação.
+Modelo de Dados: Representação das entidades principais do sistema, como usuários, agendamentos e serviços.
 
 
 
