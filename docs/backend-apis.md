@@ -70,6 +70,14 @@ Modelo de Dados: Representação das entidades principais do sistema, como usuá
 [Diagrama ou descrição do fluxo de dados na aplicação.]
 
 
+Fluxo de Requisição Típica (Exemplo de agendamento de serviço):
+- Etapa 1: O cliente faz login pelo aplicativo ou web e envia uma requisição de autenticação ao API Gateway.
+- Etapa 2: O API Gateway valida o token de autenticação com o serviço de autenticação e retorna um token JWT.
+- Etapa 3: O cliente busca por salões através da API de Agendamento de Serviços, que retorna uma lista filtrada de salões próximos com base na localização.
+- Etapa 4: O cliente seleciona um salão e um serviço, adiciona-o ao carrinho através da API de Carrinho.
+- Etapa 5: O cliente confirma o agendamento através da API de Agendamento, que cria a reserva no banco de dados e aciona o Serviço de Notificação para enviar um aviso de confirmação para o cliente e o salão.
+
+
 
 
 
