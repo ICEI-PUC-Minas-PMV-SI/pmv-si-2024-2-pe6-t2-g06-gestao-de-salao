@@ -12,7 +12,7 @@ Recursos Esperados:
 - Atualização de cadastros: Permite a atualização de informações dos clientes, como endereço, telefone, e-mail, etc.
 - Exclusão de clientes: Permitir a exclusão de registros de clientes do sistema.
 
-#### API Agendamento de agendas: 
+#### API de Agendamento de agendas: 
 Objetivo: Facilitar a marcação de horários com agilidade diretamente pelo aplicativo.
 Recursos Esperados: 
 - Busca por salões: Permite que usuários localizem salões e mostre os serviços que eles oferecem.
