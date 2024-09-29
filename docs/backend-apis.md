@@ -160,7 +160,7 @@ Fluxo de uma requisição típica (exemplo de agendamento de serviço):
 
 ## Tecnologias Utilizadas
 
-A ideia é desenvolver uma api REST utilizando a linguagem C#(contudo poderá haver uma alteraçao conforme a necessidade e demanda dos integrantes do grupo) e o framework Asp.net core. Para armazenamento foi utilizado o banco de dados relacional MySql. Lista das tecnologias:
+A ideia é desenvolver uma api REST utilizando a linguagem C#(contudo poderá haver uma alteraçao conforme a necessidade e demanda dos integrantes do grupo) e o framework Asp.net core. Para armazenamento foi utilizado o banco de dados relacional SqlServer. Lista das tecnologias:
 
 | Tecnologia | Aplicação |
 |---|---|
