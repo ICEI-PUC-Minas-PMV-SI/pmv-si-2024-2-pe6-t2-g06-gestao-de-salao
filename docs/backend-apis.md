@@ -79,6 +79,8 @@ Para o projeto Gestao de Salão, utilizamos uma arquitetura de microserviços. C
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
+<img src = "img/erAPI.png">
+
 <img src = "img/interacoesAPI.png">
 
 
@@ -92,9 +94,8 @@ Para o projeto Gestao de Salão, utilizamos uma arquitetura de microserviços. C
 Fluxo de uma requisição típica (exemplo de agendamento de serviço):
 - Etapa 1: O cliente faz login pelo aplicativo ou web e envia uma requisição de autenticação ao API Gateway.
 - Etapa 2: O API Gateway valida o token de autenticação com o serviço de autenticação e retorna um token JWT.
-- Etapa 3: O cliente busca por salões através da API de Agendamento de Serviços, que retorna uma lista filtrada de salões próximos com base na localização.
-- Etapa 4: O cliente seleciona um salão e um serviço, adiciona-o ao carrinho através da API de Carrinho.
-- Etapa 5: O cliente confirma o agendamento através da API de Agendamento, que cria a reserva no banco de dados e aciona o Serviço de Notificação para enviar um aviso de confirmação para o cliente e o salão.
+- Etapa 3: O cliente seleciona um salão e um serviço, adiciona-o ao carrinho através da API de Carrinho.
+- Etapa 4: O cliente confirma o agendamento através da API de Agendamento, que cria a reserva no banco de dados e aciona o Serviço de Notificação para enviar um aviso de confirmação para o cliente e o salão.
 
 
 
