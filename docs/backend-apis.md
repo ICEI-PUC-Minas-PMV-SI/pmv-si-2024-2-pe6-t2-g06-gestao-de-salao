@@ -80,6 +80,9 @@ Para o projeto Gestao de Salão, utilizamos uma arquitetura de microserviços. C
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
 
+....interacoesAPI.png.....
+
+
 
 
 
