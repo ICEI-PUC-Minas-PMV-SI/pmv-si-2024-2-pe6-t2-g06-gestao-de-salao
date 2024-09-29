@@ -2,8 +2,6 @@
 
 A aplicação "Gestão de Salão" foi desenvolvida para melhorar a experiência de clientes e donos de salões de beleza, oferecendo uma plataforma digital centralizada que facilita o acesso a serviços de beleza. O sistema visa atender a um público diversificado e proporcionar maior conveniência no processo de agendamento, busca por promoções e interação com os salões. Além disso, o projeto busca otimizar os processos internos dos estabelecimentos, oferecendo ferramentas que facilitam o controle de agendas e o relacionamento com os clientes. Com essa abordagem, o "Gestão de Salão" pretende criar uma solução escalável, integrada e eficiente tanto para usuários quanto para salões.
 
-[Inclua uma breve descrição do projeto.]
-
 ## Objetivos da API
 
 #### API de Cliente: 
