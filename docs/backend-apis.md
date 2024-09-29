@@ -77,7 +77,8 @@ Para o projeto Gestao de Salão, utilizamos uma arquitetura de microserviços. C
 
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+
+Segue abaixo a representação do modelo ER e as interações da API.
 
 <img src = "img/erAPI.png">
 
