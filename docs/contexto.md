@@ -97,7 +97,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Arquitetura da Solução
 
 Versão 3 
-<img src = "img/HighLevelArchitectureV3.jpg">
+<img src = "img/image (1).png">
 
 ## Tecnologias Utilizadas
 
