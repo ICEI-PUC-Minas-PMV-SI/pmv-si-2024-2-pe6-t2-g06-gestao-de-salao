@@ -1,11 +1,11 @@
 # APIs e Web Services
 
-A aplicação "Gestão de Salão" foi desenvolvida para melhorar a experiência de clientes e donos de salões de beleza, oferecendo uma plataforma digital centralizada que facilita o acesso a serviços de beleza. O sistema visa atender a um público diversificado e proporcionar maior conveniência no processo de agendamento, busca por promoções e interação com os salões. Além disso, o projeto busca otimizar os processos internos dos estabelecimentos, oferecendo ferramentas que facilitam o controle de agendas e o relacionamento com os clientes. Com essa abordagem, o "Gestão de Salão" pretende criar uma solução escalável, integrada e eficiente tanto para usuários quanto para salões.
+A aplicação de "Gestão de Salão" está sendo desenvolvida para melhorar a experiência de clientes e donos de salões de beleza, oferecendo uma plataforma digital centralizada que facilita o acesso a serviços de beleza. O sistema visa atender a um público diversificado e proporcionar maior conveniência no processo de agendamento, busca por promoções e interação com os salões. Além disso, o projeto busca otimizar os processos internos dos estabelecimentos, oferecendo ferramentas que facilitam o controle de agendas e o relacionamento com os clientes. Com essa abordagem, o "Gestão de Salão" pretende criar uma solução escalável, integrada e eficiente tanto para usuários quanto para salões.
 
 ## Objetivos da API
 
-#### API de Cliente: 
-Objetivo: Fornecer funcionalidades que aprimorem a interação dos clientes com os salões. Destinada tanto para usuários finais quanto para integração com outros sistemas de parceiros. 
+#### API de Usuario: 
+Objetivo: Fornecer funcionalidades que aprimorem a interação dos usuario com os salões. Destinada tanto para usuários finais quanto para integração com outros sistemas de parceiros. 
 Recursos Esperados:
 - Inclusão de clientes: Possibilitar a inclusão de novos clientes no banco de dados.
 - Busca por usuário de clientes: Possibilita localizar o cadastro de clientes no banco de dados.
@@ -15,11 +15,22 @@ Recursos Esperados:
 #### API de Agendamento de serviços: 
 Objetivo: Facilitar a marcação de horários com agilidade diretamente pelo aplicativo.
 Recursos Esperados: 
-- Busca por salões: Permite que usuários localizem salões e mostre os serviços que eles oferecem.
-- Realização de agendamento: Possibilita que o usuário realize agendamento de serviços em salões.
-- Atualização de agendamento: Permite que o usuário modifique o horário dos seus agendamentos.
-- Exclusão de agendamentos: Permite que o usuário cancele um agendamento
-- Check-in digital: Permitir que os clientes façam check-in de forma antecipada, agilizando o atendimento no salão.
+- Realização de agendamento: Possibilita que o usuário, salão ou profissionais realize agendamento de serviços em salões.
+- Atualização de agendamento: Permite que o salão ou profissionais modifique o agendamento.
+- Exclusão de agendamentos: Permite que o usuário, salão ou profissionais cancele um agendamento.
+- Serviços oferecidos nesta API:
+  1 Retornar todos os agendamentos apenas para usuários com papel de administrador;
+  2 Criar novos agendamentos(todos os perfis);
+  3 Retornar um agendamento especificos pelo seu Id(Adminsitrador e profissional);
+  4 Atualizar um agendamento existente(Administrador e profissional);
+  5 Deletar um agendamento(Administrador e profissional);
+  6 Retornar um agendamento de um usuário(todos os perfis);
+  7 Retornar um agendamento de um profissional(Agendamento do proprio profissional/Admnistrador e profissional);
+  8 Atualizar o status de um agendamento(Administrador e profissional);
+  9 Cancelar um agendamento(todos os perfis)
+  10 Recuperar agendamento de um data especifica(Administrador e profissional);
+  11 Recuperar agendamentos dentro de um intervalo de datas(Administrador e profissional);
+
 
 #### API de Serviços: 
 Objetivo: Gerenciar o catálogo de serviços oferecidos pelos salões de beleza e facilitar o acesso dos clientes a esses serviços. Destinada a donos de salão para gestão interna e clientes que utilizam a plataforma para buscar e agendar serviços.
