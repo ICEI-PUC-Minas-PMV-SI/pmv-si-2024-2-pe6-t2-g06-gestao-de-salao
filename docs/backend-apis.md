@@ -216,6 +216,14 @@ Para garantir os requisitos de confidenciabilidade e integridade da api, foi uti
 
 ## Testes
 
+Para abranger todos os requisitos, tanto funcionais quanto não funcionais, foram conduzidos testes manuais utilizando a ferramenta Postman, conforme imagem a seguir.
+
+<img src = "img/image (6).png">
+
+
+
+
+
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
