@@ -67,10 +67,7 @@ A arquitetura das APIs da Gestão de Salão segue um padrão REST(Representation
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
-
-
-Fluxo de Requisição Típica (Exemplo de agendamento de serviço):
+Fluxo de uma requisição típica (exemplo de agendamento de serviço):
 - Etapa 1: O cliente faz login pelo aplicativo ou web e envia uma requisição de autenticação ao API Gateway.
 - Etapa 2: O API Gateway valida o token de autenticação com o serviço de autenticação e retorna um token JWT.
 - Etapa 3: O cliente busca por salões através da API de Agendamento de Serviços, que retorna uma lista filtrada de salões próximos com base na localização.
