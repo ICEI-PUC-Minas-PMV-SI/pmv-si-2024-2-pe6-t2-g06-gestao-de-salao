@@ -1,17 +1,44 @@
 # APIs e Web Services
 
-O planejamento de uma aplicação de APIS Web é uma etapa fundamental para o sucesso do projeto. Ao planejar adequadamente, você pode evitar muitos problemas e garantir que a sua API seja segura, escalável e eficiente.
-
-Aqui estão algumas etapas importantes que devem ser consideradas no planejamento de uma aplicação de APIS Web.
+A aplicação "Gestão de Salão" foi desenvolvida para melhorar a experiência de clientes e donos de salões de beleza, oferecendo uma plataforma digital centralizada que facilita o acesso a serviços de beleza. O sistema visa atender a um público diversificado e proporcionar maior conveniência no processo de agendamento, busca por promoções e interação com os salões. Além disso, o projeto busca otimizar os processos internos dos estabelecimentos, oferecendo ferramentas que facilitam o controle de agendas e o relacionamento com os clientes. Com essa abordagem, o "Gestão de Salão" pretende criar uma solução escalável, integrada e eficiente tanto para usuários quanto para salões.
 
 [Inclua uma breve descrição do projeto.]
 
 ## Objetivos da API
 
-O primeiro passo é definir os objetivos da sua API. O que você espera alcançar com ela? Você quer que ela seja usada por clientes externos ou apenas por aplicações internas? Quais são os recursos que a API deve fornecer?
+#### API de Cliente: 
+Objetivo: Fornecer funcionalidades que aprimorem a interação dos clientes com os salões. Destinada tanto para usuários finais quanto para integração com outros sistemas de parceiros. 
+Recursos Esperados:
+- Inclusão de clientes: Possibilitar a inclusão de novos clientes no banco de dados.
+- Busca por usuário de clientes: Possibilita localizar o cadastro de clientes no banco de dados.
+- Atualização de cadastros: Permite a atualização de informações dos clientes, como endereço, telefone, e-mail, etc.
+- Exclusão de clientes: Permitir a exclusão de registros de clientes do sistema.
 
-[Inclua os objetivos da sua api.]
+#### API Agendamento de agendas: 
+Objetivo: Facilitar a marcação de horários com agilidade diretamente pelo aplicativo.
+Recursos Esperados: 
+- Busca por salões: Permite que usuários localizem salões e mostre os serviços que eles oferecem.
+- Realização de agendamento: Possibilita que o usuário realize agendamento de serviços em salões.
+- Atualização de agendamento: Permite que o usuário modifique o horário dos seus agendamentos.
+- Exclusão de agendamentos: Permite que o usuário cancele um agendamento
+- Check-in digital: Permitir que os clientes façam check-in de forma antecipada, agilizando o atendimento no salão.
 
+#### API de Serviços: 
+Objetivo: Gerenciar o catálogo de serviços oferecidos pelos salões de beleza e facilitar o acesso dos clientes a esses serviços. Destinada a donos de salão para gestão interna e clientes que utilizam a plataforma para buscar e agendar serviços.
+Recursos Esperados: 
+- Cadastro de serviços: Permitir que os salões adicionem e atualizem os serviços oferecidos, incluindo preços e tempo estimado de execução.
+- Consulta de serviços: Disponibilizar aos clientes uma lista detalhada de serviços oferecidos por cada salão, com filtros por tipo de serviço (corte de cabelo, manicure, tratamentos estéticos, etc.).
+- Atualização de portfólio: Permitir que os salões modifiquem o portfólio de serviços, incluindo novas opções ou ajustando as existentes.
+- Exclusão de serviços: Permitir que os donos de salão removam serviços que não são mais oferecidos.
+
+#### API de Carrinho: 
+Objetivo: Gerenciar o carrinho de compras dos usuários, permitindo a seleção e gerenciamento de serviços antes da finalização do agendamento. Destinada a clientes que utilizam a plataforma para escolher serviços e realizar agendamentos. 
+Recursos Esperados:
+- Adicionar serviço ao carrinho: Permitir que os clientes adicionem serviços ao carrinho enquanto navegam pelo catálogo. Cada serviço selecionado será incluído com detalhes como nome, preço e duração.
+- Atualizar itens do carrinho: Oferecer aos clientes a capacidade de modificar os serviços selecionados, como alterar a quantidade (para produtos, se aplicável) ou mudar a data/horário do serviço.
+- Remover serviço do carrinho: Permitir a exclusão de um serviço do carrinho de compras, ajustando o total conforme necessário.
+- Visualizar carrinho: Disponibilizar uma visão geral do carrinho, incluindo a lista de serviços selecionados, preços totais e possíveis promoções aplicáveis.
+- Limpar carrinho: Prover uma opção para que o cliente possa esvaziar completamente o carrinho, removendo todos os itens selecionados de uma vez.
 
 ## Arquitetura
 
