@@ -96,7 +96,8 @@ Fluxo de uma requisição típica (exemplo de agendamento de serviço):
 - Etapa 1: O cliente faz login pelo aplicativo ou web e envia uma requisição de autenticação ao API Gateway.
 - Etapa 2: O API Gateway valida o token de autenticação com o serviço de autenticação e retorna um token JWT.
 - Etapa 3: O cliente seleciona um salão e um serviço, adiciona-o ao carrinho através da API de Carrinho.
-- Etapa 4: O cliente confirma o agendamento através da API de Agendamento, que cria a reserva no banco de dados e aciona o Serviço de Notificação para enviar um aviso de confirmação para o cliente e o salão.
+- Etapa 4: O cliente confirma o agendamento através da API de Agendamento, que cria a reserva no banco de dados.
+- Etapa 5: O carrinho de compras recebe o agendamento e espera o pagamento no próprio salão para dar baixa.
 
 
 
