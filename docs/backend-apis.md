@@ -178,6 +178,37 @@ A ideia é desenvolver uma api REST utilizando a linguagem C#(contudo poderá ha
 
 ## API Endpoints
 
+Retornar todos os agendamentos do salão de beleza. Apenas usuários com papel de Aministrador podem acessar.
+
+<img src = "img/image(2).png">
+
+Cria um novo agendamento. Administradores, profissionais e usuários podem criar agendamentos.
+
+<img src = "img/image(3).png">
+
+Atualiza um agendamento existente pelo seu Id.
+
+<img src = "img/image(4).png">
+
+Deleta um agendamento pelo seu Id.
+
+<img src = "img/image(5).png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
 ### Endpoint 1
