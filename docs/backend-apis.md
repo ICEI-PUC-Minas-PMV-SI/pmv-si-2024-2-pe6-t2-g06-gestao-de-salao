@@ -144,9 +144,15 @@ https://miro.com/welcomeonboard/QlVxYUtWaVJ0YVRmZ2NZTHQwYUtBM2k1blBYeU5RR0Q2ZU03
 
 ## Tecnologias Utilizadas
 
-Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
+A ideia é desenvolver uma api REST utilizando a linguagem C#(contudo poderá haver uma alteraçao conforme a necessidade e demanda dos integrantes do grupo) e o framework Asp.net core. Para armazenamento foi utilizado o banco de dados relacional MySql. Lista das tecnologias:
 
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+| Tecnologia | Aplicação |
+|---|---|
+| C# | Implementação do Backend |
+| Asp.net core | Framework |
+| MySql | Banco de Dados |
+| Não definido ainda | Deploy da web api |
+
 
 ## API Endpoints
 
@@ -180,7 +186,7 @@ Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Para garantir os requisitos de confidenciabilidade e integridade da api, foi utilizado o JWT, que é um token criptografado de autenticação, com declarações sobre um usuário e uma chave, além dos recursos de autorização do framework asp.net core para restringir o acesso a determinadas funcionalidades da api e recursos anti-fraude.
 
 ## Implantação
 
