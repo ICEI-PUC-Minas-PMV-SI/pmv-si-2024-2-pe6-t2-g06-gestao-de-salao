@@ -223,6 +223,13 @@ Para abranger todos os requisitos, tanto funcionais quanto não funcionais, fora
 <img src = "img/image (6).png">
 
 
+Evidência de testes na API da criação de salões e financeiro.
+Realizamos os testes manuais na aplicação com a ferramenta Insomnia. Os casos testados foram: busca(get), busca por Id(getById), criação(create), atualização(update) e delete. 
+![image](https://github.com/user-attachments/assets/6d47f1b0-4966-42c5-a802-d9debb7c143d)
+![image](https://github.com/user-attachments/assets/07cfc1a6-fb41-42e3-954a-ff7dd61b8e70)
+
+
+
 
 
 # Referências
