@@ -153,7 +153,6 @@ Equilíbrio Visual: Essa paleta cria uma sensação de calma, enquanto o laranja
 Essa combinação torna a interface visualmente agradável e intuitiva, promovendo uma navegação suave e profissional para o usuário.
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
 O design foi implementado seguindo práticas de responsividade para que a aplicação seja acessível em diversos dispositivos, como celulares, tablets e desktops. Além disso, aspectos de acessibilidade foram considerados, como:
 
