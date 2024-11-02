@@ -41,8 +41,6 @@ Banco de Dados: Todas as operações são registradas no banco de dados centrali
 Essa arquitetura permite uma aplicação robusta e escalável, onde cada componente é isolado e especializado, promovendo uma estrutura organizada e de fácil manutenção.
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
-
 
 A modelagem da aplicação foi estruturada com o objetivo de organizar os dados e refletir as principais entidades envolvidas no processo de agendamentos e gerenciamento de salões de beleza. Abaixo, os detalhes da estrutura de dados e as entidades principais:
 
