@@ -201,6 +201,13 @@ Esse fluxo permite uma comunicação organizada e eficiente, garantindo que cada
 
 ## Requisitos Funcionais
 
+| ID     | Descrição do Requisito                                                                                        | Tipo        |  Prioridade|
+|--------|---------------------------------------------------------------------------------------------------------------|-------------|------------|
+| RF-001 | O Layout deve ser responsivo, adaptando-se para telas menores, como dispositivos móveis.                      | LAYOUT      | ALTA       |
+| RF-002 | Uilizar uma paleta de cores que reforce a identidade visual da marca.                                         | LAYOUT      | ALTA       |
+| RF-003 | Mensagens de validação devem aparecer em tempo real para corrigir erros antes de submeter o formulário.       | UX          | ALTA       |
+| RF-004 | Campos de Entrada: Garantir que todos os campos sejam intuitivos e fáceis de preencher                        | UX          | ALTA       |
+
 [Liste os principais requisitos funcionais da aplicação.]
 colocar aqui....
 
