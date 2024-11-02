@@ -160,6 +160,12 @@ Navegação simplificada;
 Uso de labels descritivos em campos de formulário para auxiliar tecnologias assistivas.
 Essa estrutura permite uma navegação intuitiva e rápida, facilitando o agendamento de serviços e o gerenciamento de dados pelo salão e clientes. O projeto foi desenvolvido pensando em eficiência e usabilidade para entregar uma experiência satisfatória e completa.
 
+
+<img src = "img/teste4.png">
+
+<img src = "img/teste5.png">
+
+
 ### Interações do Usuário
 
 Confirmação e Cancelamento de Agendamentos:
@@ -318,9 +324,6 @@ Esses passos garantem que a aplicação esteja operando de maneira eficiente e s
 
 #### Teste de reponsividade
 
-<img src = "img/teste4.png">
-
-<img src = "img/teste5.png">
 
 <img src = "img/teste6.png">
 
