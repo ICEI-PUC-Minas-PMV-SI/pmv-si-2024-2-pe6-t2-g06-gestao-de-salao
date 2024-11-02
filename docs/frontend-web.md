@@ -141,42 +141,97 @@ A interface é responsiva e acessível, garantindo uma experiência fluida em to
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
+O design visual da aplicação utiliza uma paleta de cores que reflete um ambiente de beleza e bem-estar. A base inclui tons neutros e pastéis, combinados com um tom suave de laranja para criar um ambiente acolhedor e moderno.
+
+Tons Neutros: Cores como cinza claro e bege servem como pano de fundo, proporcionando um visual limpo e organizado.
+Toques de Laranja: O laranja é utilizado em botões, links e elementos de destaque, conferindo vivacidade e facilitando a identificação das principais ações.
+Equilíbrio Visual: Essa paleta cria uma sensação de calma, enquanto o laranja adiciona energia e sofisticação, refletindo a identidade visual de salões de beleza.
+Essa combinação torna a interface visualmente agradável e intuitiva, promovendo uma navegação suave e profissional para o usuário.
+
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
-A interface é projetada para se adaptar automaticamente a diversos tamanhos de tela, garantindo acessibilidade e boa usabilidade em dispositivos móveis, tablets e desktops. Os principais pontos incluem:
+O design foi implementado seguindo práticas de responsividade para que a aplicação seja acessível em diversos dispositivos, como celulares, tablets e desktops. Além disso, aspectos de acessibilidade foram considerados, como:
 
-Componentes Flexíveis: O layout usa um sistema de grids e elementos flexíveis, redimensionando e realocando conteúdo conforme o tamanho da tela.
-
-Navegação Simplificada: Em telas menores, menus laterais se transformam em um menu de ícones ou botões expansíveis, economizando espaço e mantendo as principais funções acessíveis.
-
-Imagens e Botões Redimensionáveis: As imagens, botões e fontes são dimensionados proporcionalmente, proporcionando uma boa experiência de leitura e interação em telas de diferentes resoluções.
-
-Otimização de Conteúdo: Componentes não essenciais são ocultados em dispositivos menores para reduzir o excesso de informações e priorizar funções principais, como agendamento e confirmação de serviços.
-
-Testes de Acessibilidade: Garantimos que o design é adaptável a leitores de tela e utiliza cores com bom contraste, facilitando a navegação para todos os usuários.
-
-Esse layout responsivo assegura que a aplicação funcione bem em qualquer dispositivo, aumentando a satisfação do usuário e incentivando o uso contínuo da plataforma.
+Contraste adequado para texto e botões;
+Navegação simplificada;
+Uso de labels descritivos em campos de formulário para auxiliar tecnologias assistivas.
+Essa estrutura permite uma navegação intuitiva e rápida, facilitando o agendamento de serviços e o gerenciamento de dados pelo salão e clientes. O projeto foi desenvolvido pensando em eficiência e usabilidade para entregar uma experiência satisfatória e completa.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
 
+Confirmação e Cancelamento de Agendamentos:
+
+Clientes e administradores podem confirmar ou cancelar um agendamento diretamente no painel.
+Ao cancelar, um modal confirma a ação para evitar cancelamentos acidentais.
+Notificações:
+
+Notificações de agendamentos futuros e lembretes de confirmação são exibidas no painel do cliente e do administrador.
+Cada notificação possui uma marcação de status (pendente, confirmado, cancelado).
+Feedback Pós-Serviço:
+
+Após a finalização do serviço, clientes recebem uma notificação para avaliar o atendimento e o serviço realizado.
+Filtros e Pesquisa:
+
+Em todas as listas de agendamentos e históricos, clientes e administradores têm acesso a filtros por data, status e serviço, além de uma barra de pesquisa.
+
 ## Fluxo de Dados
 
 [Diagrama ou descrição do fluxo de dados na aplicação.]
+<img src = "img/fluxoMiro.png">
+O fluxo de dados na aplicação segue uma arquitetura de microserviços, garantindo que cada componente lide de maneira eficiente e independente com suas próprias funções. Abaixo está uma descrição simplificada do fluxo:
+
+Solicitações do Usuário: O cliente (usuário final) acessa a interface web através do navegador, onde pode realizar ações como criar uma conta, agendar um serviço, ou gerenciar seus agendamentos.
+
+Front-end (React TS): A interface web em React TS recebe as interações dos usuários e se comunica com o back-end para enviar ou receber dados via API.
+
+API Gateway: Todas as solicitações do front-end passam pelo API Gateway, que gerencia as rotas e distribui as requisições aos microserviços corretos, garantindo segurança e escalabilidade.
+
+Microserviços: Cada microserviço é responsável por uma função específica, como:
+
+Autenticação: valida as credenciais dos usuários.
+Agenda: gerencia agendamentos de serviços.
+Clientes: gerencia informações dos clientes e o histórico de serviços.
+Banco de Dados (SQL Server): Os dados são armazenados de forma centralizada no Microsoft SQL Server, onde são salvos e recuperados conforme necessário, incluindo informações de usuários, agendamentos, e histórico de serviços.
+
+Resposta ao Cliente: Após o processamento da solicitação, o back-end retorna os dados para o front-end através do API Gateway, onde são exibidos ao usuário na interface.
+
+Esse fluxo permite uma comunicação organizada e eficiente, garantindo que cada ação seja rapidamente processada e retornada ao usuário.
 
 ## Requisitos Funcionais
 
 [Liste os principais requisitos funcionais da aplicação.]
+colocar aqui....
 
 ## Requisitos Não Funcionais
 
 [Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
-
+colocar aqui....
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+A aplicação foi projetada com uma série de medidas de segurança para proteger os dados dos usuários e garantir a integridade do sistema:
+
+Autenticação e Autorização Segura:
+
+Implementação de autenticação usando JWT (JSON Web Tokens), garantindo que apenas usuários autenticados possam acessar dados sensíveis.
+Controle de autorização para diferenciar acessos entre administradores e clientes, restringindo operações críticas a perfis com permissões apropriadas.
+
+Proteção contra Ataques Comuns:
+
+Prevenção contra SQL Injection: Uso de ORM (Entity Framework Core) para consultas parametrizadas e segurança no acesso ao banco de dados.
+Proteção contra XSS e CSRF: Sanitização de entradas de usuário e uso de tokens CSRF para proteger formulários e ações autenticadas na aplicação.
+
+Comunicação Segura:
+
+TLS (Transport Layer Security) é usado para criptografar todas as comunicações entre cliente e servidor, prevenindo interceptação de dados sensíveis.
+API Gateway: Age como ponto central para validação e roteamento de requisições, reforçando segurança e gerenciamento de acesso.
+
+Políticas de Senhas e Segurança de Dados:
+
+Requisitos de senha e encriptação de senhas antes do armazenamento.
+Regras de expiração de sessão e limpeza de dados sensíveis para proteger informações pessoais em caso de inatividade.
 
 ## Implantação
 
@@ -188,9 +243,59 @@ Esse layout responsivo assegura que a aplicação funcione bem em qualquer dispo
 4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
 5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
 
+---
+
+1. Requisitos de Hardware e Software
+Hardware:
+VM recomendada: B2s (2 vCPUs, 4 GB RAM) para ambientes pequenos. Para produção, considere B2ms ou superior.
+
+Software:
+Sistema Operacional: Windows Server ou Linux (Ubuntu).
+.NET Core SDK e Runtime.
+Microsoft SQL Server (Azure SQL Database para simplificar a gestão).
+Node.js e npm (para o front-end).
+
+3. Plataforma de Hospedagem
+Utilize os serviços do Microsoft Azure:
+
+Azure App Service: Para hospedar a API .NET Core.
+Azure SQL Database: Para gerenciar o banco de dados sem precisar configurar servidores.
+Azure Blob Storage: Para armazenar arquivos estáticos da aplicação front-end.
+
+3. Configuração do Ambiente de Implantação
+Crie uma Azure SQL Database:
+
+Configure as definições iniciais, como nome, tamanho e região.
+Anote a string de conexão, que será usada pela aplicação.
+Configure o App Service:
+
+Crie um novo App Service e selecione a pilha de tecnologia (.NET Core).
+Defina as variáveis de ambiente necessárias nas configurações do App Service, incluindo a string de conexão do banco de dados e outras credenciais.
+Prepare o armazenamento para arquivos estáticos:
+
+Crie um Azure Blob Storage para hospedar o front-end.
+
+4. Deploy da Aplicação
+Deploy da API .NET Core:
+
+Utilize o Azure DevOps ou GitHub Actions para CI/CD.
+Configure o pipeline para compilar e publicar a aplicação diretamente no App Service.
+Deploy do Front-end React:
+
+Compile a aplicação usando npm run build.
+Faça o upload dos arquivos estáticos gerados para o Azure Blob Storage. Configure o blob para servir arquivos estáticos.
+
+5. Testes de Verificação
+Após o deploy, realize os seguintes testes:
+Testes de Funcionalidade: Acesse a URL do App Service para garantir que a API esteja respondendo corretamente.
+Testes de Performance: Utilize o Azure Monitor para monitorar o desempenho da aplicação e fazer ajustes conforme necessário.
+Testes de Segurança: Use o Azure Security Center para verificar vulnerabilidades e aplicar recomendações de segurança.
+Esses passos garantem que a aplicação esteja operando de maneira eficiente e segura no Azure, aproveitando a escalabilidade e as funcionalidades integradas da plataforma.
+
 ## Testes
 
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+colocar aqui....
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
@@ -199,5 +304,6 @@ Esse layout responsivo assegura que a aplicação funcione bem em qualquer dispo
 5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
 # Referências
+colocar aqui....
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
