@@ -141,6 +141,8 @@ A interface é responsiva e acessível, garantindo uma experiência fluida em to
 
 <img src = "img/agendamentos.jpg">
 
+<img src = "img/servicos.png">
+
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 ### Design Visual
