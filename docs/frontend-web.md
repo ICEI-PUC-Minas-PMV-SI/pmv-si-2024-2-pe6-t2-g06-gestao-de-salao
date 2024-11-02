@@ -184,8 +184,9 @@ Filtros e Pesquisa:
 Em todas as listas de agendamentos e históricos, clientes e administradores têm acesso a filtros por data, status e serviço, além de uma barra de pesquisa.
 
 ## Fluxo de Dados
+Diagrama de sequencia:
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+Fluxo geral da aplicação.
 <img src = "img/fluxoMiro.png">
 O fluxo de dados na aplicação segue uma arquitetura de microserviços, garantindo que cada componente lide de maneira eficiente e independente com suas próprias funções. Abaixo está uma descrição simplificada do fluxo:
 
