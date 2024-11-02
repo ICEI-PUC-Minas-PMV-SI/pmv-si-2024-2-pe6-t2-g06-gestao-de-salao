@@ -122,7 +122,6 @@ Considerações
 Essa estrutura permite o acompanhamento eficiente de agendamentos e o histórico dos serviços prestados, otimizando o fluxo de trabalho e as consultas de dados, garantindo que a aplicação seja escalável e de fácil manutençã
 
 ## Projeto da Interface Web
-[Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
 A interface foi projetada para ser intuitiva e eficiente, com design responsivo e paleta de cores neutras. O layout é dividido em:
 
