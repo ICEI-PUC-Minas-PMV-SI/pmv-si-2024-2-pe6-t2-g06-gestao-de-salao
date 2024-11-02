@@ -147,7 +147,6 @@ A interface é responsiva e acessível, garantindo uma experiência fluida em to
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
 O design visual da aplicação utiliza uma paleta de cores que reflete um ambiente de beleza e bem-estar. A base inclui tons neutros e pastéis, combinados com um tom suave de laranja para criar um ambiente acolhedor e moderno.
 
@@ -167,7 +166,6 @@ Uso de labels descritivos em campos de formulário para auxiliar tecnologias ass
 Essa estrutura permite uma navegação intuitiva e rápida, facilitando o agendamento de serviços e o gerenciamento de dados pelo salão e clientes. O projeto foi desenvolvido pensando em eficiência e usabilidade para entregar uma experiência satisfatória e completa.
 
 ### Interações do Usuário
-[Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
 
 Confirmação e Cancelamento de Agendamentos:
 
@@ -246,9 +244,6 @@ colocar aqui....
 | RNF-12    | *Maneabilidade*  | *Código Limpo e Bem Comentado*: Garantir um código organizado e comentado facilita a manutenção e a compreensão por outros desenvolvedores. | Baixa        |
 | RNF-13    | *Portabilidade*  | *Compatibilidade com Sistemas Operacionais e Navegadores*: A aplicação deve ser compatível com dispositivos móveis rodando Android e iOS e com navegadores web modernos.   
 
-
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
-colocar aqui....
 
 ## Considerações de Segurança
 
@@ -335,16 +330,3 @@ Esses passos garantem que a aplicação esteja operando de maneira eficiente e s
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
-colocar aqui....
-
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
-
-# Referências
-colocar aqui....
-
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
