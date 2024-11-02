@@ -3,14 +3,52 @@
 [Inclua uma breve descrição do projeto e seus objetivos.]
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
-
+- **React**: Biblioteca para construção da interface do usuário, permitindo a criação de componentes reutilizáveis.
+- **Node.js**: Ambiente de execução JavaScript no servidor, utilizado para criar a API.
+- **Express**: Framework para desenvolvimento de APIs, facilitando a criação de rotas e middleware.
+- **MongoDB**: Banco de dados NoSQL utilizado para armazenar as informações dos salões.
+- **CSS / Sass**: Para estilização da interface, proporcionando um design responsivo e moderno.
+- **Axios**: Biblioteca para realizar chamadas assíncronas a APIs, facilitando a comunicação entre a interface e o servidor.
+- 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
+A aplicação é composta por uma interface web desenvolvida em React que se comunica com uma API RESTful construída com Node.js e Express. Os principais componentes incluem:
+- **Componente de Lista de Salões**: Exibe todos os salões cadastrados e permite ações de cadastrar editar e excluir.
+- **Componente de Formulário de Salão**: Permite a criação e edição de salões.
+- **Componente de Lista de pagamentos**: Exibe todos os pagamentos cadastrados e permite ações de cadastrar editar e excluir.
+- **Componente de Formulário de Salão**: Permite a criação e edição de pagamentos.
+- **Roteamento**: Utiliza React Router para navegação entre diferentes páginas, garantindo uma experiência fluida para o usuário.
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+A modelagem da aplicação utiliza uma estrutura de dados que representa salões de beleza e pagamentos, com os seguintes atributos:
+
+### Entidade Salão
+- `id`: Identificador único do salão.
+- `nome`: Nome do salão.
+- `endereco`: Endereço do salão.
+- `telefone`: Número de telefone para contato.
+- `servicos`: Lista de serviços oferecidos pelo salão.
+
+### Entidade Pagamento
+- `id`: Identificador único do pagamento.
+- `salonId`: Referência ao salão relacionado.
+- `usuarioId`: Referência ao usuário que realiza o pagamento.
+- `valor`: Valor do pagamento.
+- `data`: Data em que o pagamento foi realizado.
+- `metodo`: Método de pagamento utilizado (ex: cartão de crédito, pix...).
+
+### Diagrama de Entidades
+```plaintext
++--------------+                  +---------------+
+|    Salão     |                  |   Pagamento   |
++--------------+                  +---------------+
+| id           | <--------------> | id            |
+| nome         |                  | salaoId      |
+| endereco     |                  | usuarioId    |
+| telefone     |                  | valor        |
+| servicos     |                  | data         |
++--------------+                  | metodo       |
+                                  +---------------+
 
 ## Projeto da Interface Web
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
