@@ -4,9 +4,6 @@
 
 ## Tecnologias Utilizadas
 - **React**: Biblioteca para construção da interface do usuário, permitindo a criação de componentes reutilizáveis.
-- **Node.js**: Ambiente de execução JavaScript no servidor, utilizado para criar a API.
-- **Express**: Framework para desenvolvimento de APIs, facilitando a criação de rotas e middleware.
-- **MongoDB**: Banco de dados NoSQL utilizado para armazenar as informações dos salões.
 - **CSS / Sass**: Para estilização da interface, proporcionando um design responsivo e moderno.
 - **Axios**: Biblioteca para realizar chamadas assíncronas a APIs, facilitando a comunicação entre a interface e o servidor.
 - 
