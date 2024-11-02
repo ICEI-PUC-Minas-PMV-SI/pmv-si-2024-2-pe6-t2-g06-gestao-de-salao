@@ -316,9 +316,7 @@ Esses passos garantem que a aplicação esteja operando de maneira eficiente e s
 
 <img src = "img/teste1.png">
 
-<img src = "img/teste2.png">
-
-<img src = "img/teste3.png">
+#### Teste de reponsividade
 
 <img src = "img/teste4.png">
 
