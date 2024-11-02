@@ -218,8 +218,6 @@ Esse fluxo permite uma comunicação organizada e eficiente, garantindo que cada
 | RF-003 | Mensagens de validação devem aparecer em tempo real para corrigir erros antes de submeter o formulário.       | UX          | ALTA       |
 | RF-004 | Campos de Entrada: Garantir que todos os campos sejam intuitivos e fáceis de preencher                        | UX          | ALTA       |
 
-[Liste os principais requisitos funcionais da aplicação.]
-colocar aqui....
 
 ## Requisitos Não Funcionais
 
