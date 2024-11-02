@@ -70,56 +70,6 @@ Histórico de Agendamentos:
 Armazena o histórico de agendamentos realizados para auditoria e consultas futuras.
 Atributos: Id, AgendamentoId, DataAlteracao, StatusAnterior, StatusAtual.
 Relações: Está associado a um agendamento específico e contém as mudanças de status ao longo do tempo.
-Diagrama de Classes
-Abaixo, um exemplo das classes e suas relações:
-
-Usuário
-
-|- Id: int
-|- Nome: string
-|- Email: string
-|- Senha: string
-|- TipoUsuario: enum
-|- Telefone: string
-|- DataCriacao: DateTime
-Salão
-
-|- Id: int
-|- Nome: string
-|- Endereco: string
-|- Telefone: string
-|- HorarioFuncionamento: string
-|- Descricao: string
-|- IdAdministrador: int
-Agendamento
-
-|- Id: int
-|- DataHora: DateTime
-|- Status: enum
-|- ClienteId: int
-|- SalaoId: int
-|- ServicoId: int
-Serviço
-
-|- Id: int
-|- Nome: string
-|- Descricao: string
-|- Preco: decimal
-|- Duracao: int
-Histórico de Agendamentos
-
-|- Id: int
-|- AgendamentoId: int
-|- DataAlteracao: DateTime
-|- StatusAnterior: enum
-|- StatusAtual: enum
-Diagrama de Entidade-Relacionamento (ER)
-Usuário (1) -- (n) Agendamento
-Salão (1) -- (n) Agendamento
-Agendamento (n) -- (1) Serviço
-Agendamento (1) -- (n) Histórico de Agendamentos
-Considerações
-Essa estrutura permite o acompanhamento eficiente de agendamentos e o histórico dos serviços prestados, otimizando o fluxo de trabalho e as consultas de dados, garantindo que a aplicação seja escalável e de fácil manutençã
 
 ## Projeto da Interface Web
 
@@ -186,9 +136,9 @@ Em todas as listas de agendamentos e históricos, clientes e administradores tê
 ## Fluxo de Dados
 Diagrama de sequencia:
 #### 1 - Usuario
-<img src = "img/fluxoAgendamentoMiro.png">
 
 #### 2 - Agendamento
+<img src = "img/fluxoAgendamentoMiro.png">
 
 #### 3 - Servicos
 
@@ -259,7 +209,6 @@ Prevenção contra SQL Injection: Uso de ORM (Entity Framework Core) para consul
 Proteção contra XSS e CSRF: Sanitização de entradas de usuário e uso de tokens CSRF para proteger formulários e ações autenticadas na aplicação.
 
 Comunicação Segura:
-
 TLS (Transport Layer Security) é usado para criptografar todas as comunicações entre cliente e servidor, prevenindo interceptação de dados sensíveis.
 API Gateway: Age como ponto central para validação e roteamento de requisições, reforçando segurança e gerenciamento de acesso.
 
@@ -321,9 +270,5 @@ Esses passos garantem que a aplicação esteja operando de maneira eficiente e s
 
 
 <img src = "img/teste1.png">
-
-<img src = "img/teste6.png">
-
-<img src = "img/teste7.png">
 
 <img src = "img/teste8.png">
