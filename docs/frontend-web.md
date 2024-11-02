@@ -313,3 +313,19 @@ Esses passos garantem que a aplicação esteja operando de maneira eficiente e s
 
 ## Testes
 
+
+<img src = "img/teste1.png">
+
+<img src = "img/teste2.png">
+
+<img src = "img/teste3.png">
+
+<img src = "img/teste4.png">
+
+<img src = "img/teste5.png">
+
+<img src = "img/teste6.png">
+
+<img src = "img/teste7.png">
+
+<img src = "img/teste8.png">
