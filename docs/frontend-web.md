@@ -157,14 +157,8 @@ Em todas as listas de agendamentos e históricos, clientes e administradores tê
 
 ## Fluxo de Dados
 ### Diagrama de sequencia:
-#### 1 - Usuario
-
-#### 2 - Agendamento
+#### Exemplo do fluxo de dados - Agendamento
 <img src = "img/fluxoAgendamentoMiro.png">
-
-#### 3 - Servicos
-
-#### 4 - Pagamentos
 
 ### Fluxo geral da aplicação.
 <img src = "img/fluxoMiro.png">
