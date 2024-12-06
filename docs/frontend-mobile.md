@@ -1,4 +1,6 @@
 # Front-end Móvel
+[Inclua uma breve descrição do projeto e seus objetivos.]
+
 
 O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência prática e eficiente para clientes e salões de beleza, facilitando o agendamento de serviços, pagamentos e check-ins digitais por meio de uma aplicação móvel. A aplicação visa atender às necessidades do público-alvo conectado, oferecendo uma interface intuitiva e moderna para dispositivos Android e iOS. Os objetivos principais do projeto são:
 - Facilitar a busca por serviços e profissionais com base em diferentes critérios.
@@ -9,6 +11,8 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 
 
 ## Tecnologias Utilizadas
+[Lista das tecnologias principais que serão utilizadas no projeto.]
+
 
 - Front-end: React Native
 - Gerenciamento de Estado: Redux
@@ -18,6 +22,9 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 - Testes: Jest e React Native Testing Library
 
 ## Arquitetura
+[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+
+
 A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel):
 
 - View: Componentes React Native que representam a interface do usuário.
@@ -28,6 +35,9 @@ A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
 ## Projeto da Interface
+[Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+
+
 A interface do aplicativo terá foco na simplicidade e clareza. Os principais elementos incluem:
 
 - Página inicial com botões de login e cadastro.
@@ -36,6 +46,9 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 - Seção para pagamento.
 
 ### Wireframes
+[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+
+
 Os wireframes principais incluem:
 
 - Tela de Login:
@@ -52,28 +65,53 @@ Os wireframes principais incluem:
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
+
+- Paleta de cores: Tons de laranja (#FF7043) e cinza claro para destacar elementos principais.
+- Tipografia: Fontes modernas como Roboto para legibilidade.
+- Ícones: Uso de biblioteca como Material Icons para consistência visual.
+
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
+
+O layout será responsivo para diferentes tamanhos de tela (smartphones e tablets), utilizando o sistema de flexbox do React Native e media queries para estilização específica de dispositivos.
+
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
+
+
+- Animações: Feedback visual para cliques e transições.
+- Transições: Navegação suave entre páginas utilizando a biblioteca React Navigation.
+- Gestos: Swipe para exclusão ou edição de agendamentos.
 
 ## Fluxo de Dados
 
 [Diagrama ou descrição do fluxo de dados na aplicação.]
 
 ## Requisitos Funcionais
-
 [Liste os principais requisitos funcionais da aplicação.]
 
-## Requisitos Não Funcionais
 
+- Cadastro de usuários.
+- Login e autenticação.
+- Visualização de serviços disponíveis.
+- Agendamento de serviços.
+- Sistema de pagamento.
+
+## Requisitos Não Funcionais
 [Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+
+- Alta usabilidade e tempos de resposta inferiores a 2 segundos.
+- Suporte para versões recentes de Android e iOS.
+- Segurança no armazenamento de dados sensíveis.
+
 
 
 ## Considerações de Segurança
-
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+
+- Autenticação com JWT (JSON Web Tokens).
+- Comunicação segura com o backend por meio de HTTPS.
 
 ## Implantação
 
@@ -85,6 +123,15 @@ Os wireframes principais incluem:
 4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
 5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
 
+- Requisitos de Hardware e Software:
+- Servidores na AWS para backend e base de dados.
+- Serviços como Firebase para notificações.
+- Hospedagem: Uso de plataformas como Google Play Store e Apple App Store.
+- Deploy: Configuração do ambiente com Expo CLI ou ferramentas nativas (Android Studio/Xcode).
+- Testes de Produção: Realizar testes beta com TestFlight (iOS) e Google Play Console (Android).
+
+
+
 ## Testes
 
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
@@ -95,6 +142,13 @@ Os wireframes principais incluem:
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
 5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
+- Unitários: Validação de componentes individuais.
+- Integração: Testes do fluxo de autenticação e agendamento.
+- Carga: Simulação de múltiplos usuários.
+- Ferramentas: Jest, React Native Testing Library, e Expo CLI para debugging.
+
+
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+- Documentação do React Native: https://reactnative.dev/
+- Material Design Guidelines: https://material.io/design
