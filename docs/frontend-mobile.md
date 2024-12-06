@@ -1,10 +1,10 @@
 # Front-end Móvel
 
 O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência prática e eficiente para clientes e salões de beleza, facilitando o agendamento de serviços, pagamentos e check-ins digitais por meio de uma aplicação móvel. A aplicação visa atender às necessidades do público-alvo conectado, oferecendo uma interface intuitiva e moderna para dispositivos Android e iOS. Os objetivos principais do projeto são:
-- Facilitar a busca por serviços e profissionais com base em diferentes critérios;
-- Permitir o agendamento de serviços de maneira rápida e segura;
-- Fornecer informações detalhadas sobre os serviços e agendamentos;
-- Oferecer uma interface amigável e acessível em diversos dispositivos móveis;
+- Facilitar a busca por serviços e profissionais com base em diferentes critérios.
+- Permitir o agendamento de serviços de maneira rápida e segura.
+- Fornecer informações detalhadas sobre os serviços e agendamentos.
+- Oferecer uma interface amigável e acessível em diversos dispositivos móveis.
 
 
 
@@ -28,10 +28,26 @@ A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
 ## Projeto da Interface
-[Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+A interface do aplicativo terá foco na simplicidade e clareza. Os principais elementos incluem:
+
+- Página inicial com botões de login e cadastro.
+- Dashboard para visualizar agendamentos e status.
+- Seção para pesquisa e agendamento de serviços.
+- Seção para pagamento.
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+Os wireframes principais incluem:
+
+- Tela de Login:
+  
+- Tela de Cadastro:
+  
+- Tela de Agendamento:
+  
+- Tela de Pagamento:
+  
+- Tela de Listagem de serviços:
+  
 
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
