@@ -23,7 +23,6 @@ A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel
 - View: Componentes React Native que representam a interface do usuário.
 - ViewModel: Contém a lógica de negócios e gerencia o estado da aplicação.
 - Model: Representa os dados do domínio e interage diretamente com a API.
-- Camada de Serviços: Responsável pelas requisições HTTP e manipulação de dados obtidos da API.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
