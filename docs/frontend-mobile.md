@@ -1,13 +1,29 @@
 # Front-end Móvel
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência prática e eficiente para clientes e salões de beleza, facilitando o agendamento de serviços, pagamentos e check-ins digitais por meio de uma aplicação móvel. A aplicação visa atender às necessidades do público-alvo conectado, oferecendo uma interface intuitiva e moderna para dispositivos Android e iOS. Os objetivos principais do projeto são:
+- Facilitar a busca por serviços e profissionais com base em diferentes critérios;
+- Permitir o agendamento de serviços de maneira rápida e segura;
+- Fornecer informações detalhadas sobre os serviços e agendamentos;
+- Oferecer uma interface amigável e acessível em diversos dispositivos móveis;
+
+
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+
+- Front-end: React Native
+- Gerenciamento de Estado: Redux
+- Design: Figma (para prototipagem e wireframes)
+- Comunicação com Backend: Axios (consumo de APIs RESTful)
+- Estilização: Styled Components
+- Testes: Jest e React Native Testing Library
 
 ## Arquitetura
+A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel):
 
-[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+- View: Componentes React Native que representam a interface do usuário.
+- ViewModel: Contém a lógica de negócios e gerencia o estado da aplicação.
+- Model: Representa os dados do domínio e interage diretamente com a API.
+- Camada de Serviços: Responsável pelas requisições HTTP e manipulação de dados obtidos da API.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
