@@ -54,9 +54,13 @@ Os wireframes principais incluem:
 
 <img src = "img/hp1.png">
   
-- Tela de Agendamento:
+#### Tela de Agendamento:
+
+<img src = "img/la1.png">
+
+<img src = "img/la2.png">
   
-- Tela de Pagamento:
+#### Tela de Pagamento:
   
 #### Tela de Listagem de serviços:
 
