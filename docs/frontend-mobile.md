@@ -51,8 +51,9 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 
 - Página inicial com botões de login e cadastro.
 - Dashboard para visualizar agendamentos e status.
-- Seção para pesquisa e agendamento de serviços.
-- Seção para pagamento.
+- Seção para pesquisa de salões
+- Seção para lista e agendamento de serviços.
+- Seção para visualizar histórico de agendamentos
 
 ## Wireframes
 
