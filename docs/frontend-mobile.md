@@ -61,7 +61,7 @@ Os wireframes principais incluem:
 
 ### Tela de Cadastro:
 
-<img src = "img/tr.jpeg" width="300">
+<img src = "img/tr.jpeg" width="347">
 
 ### Tela de Login:
 
