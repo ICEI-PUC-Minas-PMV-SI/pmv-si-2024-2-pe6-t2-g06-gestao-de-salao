@@ -117,12 +117,20 @@ Design ajustado para aproveitar o espaço adicional, com layouts em grade (grid-
 Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhorar a leitura visual.
 
 ### Interações do Usuário
-[Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
+A experiência do usuário no aplicativo "Gestão de Salão" foi projetada para ser fluida, intuitiva e visualmente atrativa. Para isso, foram incorporados elementos interativos e de feedback visual que aprimoram a navegação e a usabilidade.
 
+#### Animações:
+Feedback visual em cliques e interações, como mudança de cor ou escala dos botões ao toque, para indicar ações concluídas.
+Animações suaves para a exibição e ocultação de elementos, como modais de confirmação e notificações de sucesso.
 
-- Animações: Feedback visual para cliques e transições.
-- Transições: Navegação suave entre páginas utilizando a biblioteca React Navigation.
-- Gestos: Swipe para exclusão ou edição de agendamentos.
+#### Transições:
+Navegação fluida entre as páginas utilizando a biblioteca React Navigation, com transições animadas que tornam a experiência mais natural.
+Aplicação de efeitos como "fade-in" ou "slide" ao abrir novas telas ou retornar à página anterior.
+
+#### Gestos:
+Função de swipe para excluir ou editar agendamentos diretamente na lista, oferecendo praticidade ao usuário.
+Navegação intuitiva por meio de gestos, como deslizar para o lado para retornar ou avançar entre as telas.
+Essas interações foram projetadas para proporcionar uma experiência envolvente e alinhada às expectativas do público-alvo, reforçando a modernidade e o profissionalismo da aplicação.
 
 ## Fluxo de Dados
 
