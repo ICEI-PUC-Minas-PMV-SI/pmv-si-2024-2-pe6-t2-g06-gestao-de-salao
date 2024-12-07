@@ -50,6 +50,8 @@ Os wireframes principais incluem:
   <img src = "img/tl2.jpg">
   
 - Tela de Cadastro:
+
+- Tela de HomePage:
   
 - Tela de Agendamento:
   
