@@ -6,7 +6,7 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 - Fornecer informações detalhadas sobre os serviços e agendamentos.
 - Oferecer uma interface amigável e acessível em diversos dispositivos móveis.
 
-
+(Repositório: 
 
 ## Tecnologias Utilizadas
 
@@ -58,6 +58,10 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 ## Wireframes
 
 Os wireframes principais incluem:
+
+### Tela de Cadastro:
+
+<img src = "img/tr.jpeg">
 
 ### Tela de Login:
 
