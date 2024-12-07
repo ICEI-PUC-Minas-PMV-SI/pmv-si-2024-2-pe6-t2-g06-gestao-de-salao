@@ -87,17 +87,20 @@ Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhora
 [Diagrama ou descrição do fluxo de dados na aplicação.]
 
 ## Requisitos Funcionais
-[Liste os principais requisitos funcionais da aplicação.]
 
+O aplicativo foi projetado para atender às principais necessidades dos usuários e dos estabelecimentos parceiros, integrando funcionalidades que oferecem praticidade, segurança e eficiência. A seguir, são detalhadas os requisitos funcionais mapeados:
 
-- Cadastro de usuários.
-- Login e autenticação.
-- Visualização de serviços disponíveis.
-- Agendamento de serviços.
-- Sistema de pagamento.
+##### Cadastro de usuários
+Permitir que novos usuários se registrem na plataforma de forma simples e rápida.
+##### Login e autenticação.
+Garantir acesso seguro aos usuários já cadastrados.
+##### Visualização de serviços disponíveis.
+Permitir que os usuários explorem os serviços oferecidos pelos salões de beleza parceiros.
+##### Agendamento de serviços.
+Facilitar o agendamento de serviços pelos usuários.
+
 
 ## Requisitos Não Funcionais
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
 
 - Alta usabilidade e tempos de resposta inferiores a 2 segundos.
 - Suporte para versões recentes de Android e iOS.
@@ -106,7 +109,6 @@ Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhora
 
 
 ## Considerações de Segurança
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
 
 A segurança é um aspecto essencial no desenvolvimento de aplicações, especialmente em sistemas que lidam com dados sensíveis e informações pessoais dos usuários. O aplicativo foi projetado com uma abordagem de "Security by Design", onde práticas e tecnologias de segurança são integradas desde as primeiras fases do desenvolvimento. Abaixo, são detalhadas as principais medidas adotadas para garantir a proteção do sistema, dos dados dos usuários e a conformidade com regulamentações:
 #### Autenticação e Controle de Sessão:
