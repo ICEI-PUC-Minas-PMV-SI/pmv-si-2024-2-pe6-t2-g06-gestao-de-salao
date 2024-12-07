@@ -23,10 +23,9 @@ Para garantir uma organização robusta, manutenibilidade e escalabilidade na ap
 
 A seguir, detalharemos como cada camada será implementada:
 
-**View:** Componentes desenvolvidos em React Native, responsáveis por apresentar a interface do usuário e capturar interações.
-**ViewModel**: A camada intermediária que concentra a lógica de negócios, gerencia o estado da aplicação e atua como um elo entre a View e o Model.
-**Model:** Representa os dados do domínio e suas operações, além de encapsular a comunicação com a API para acesso e manipulação das informações.
-
+**View:** Componentes desenvolvidos em React Native, responsáveis por apresentar a interface do usuário e capturar interações.  
+**ViewModel**: A camada intermediária que concentra a lógica de negócios, gerencia o estado da aplicação e atua como um elo entre a View e o Model.  
+**Model:** Representa os dados do domínio e suas operações, além de encapsular a comunicação com a API para acesso e manipulação das informações.  
 Essa arquitetura proporciona uma estrutura modular e escalável, ideal para projetos que demandam evolução constante e manutenção eficiente.
 
 ## Modelagem da Aplicação
