@@ -94,16 +94,17 @@ O aplicativo foi projetado para atender às principais necessidades dos usuário
 |--------|---------------------------------------------------------------------------------------------------------------|-------------|------------|
 | RF-001 | Permitir que novos usuários se registrem na plataforma de forma simples e rápida.                             | BACKEND     | ALTA       |
 | RF-002 | Garantir acesso seguro aos usuários já cadastrados                                                            | BACKEND     | ALTA       |
-| RF-003 | Permitir que os usuários explorem os serviços oferecidos pelos salões de beleza parceiros                     | UX          | ALTA       |
+| RF-003 | Permitir que os usuários explorem os serviços oferecidos pelos salões de beleza parceiros                     | FRONTEND    | ALTA       |
 | RF-004 | O sistema deve permitir agendamento de serviços para usuário cadastrados                                      | BACKEND     | ALTA       |
 
 ## Requisitos Não Funcionais
 
-- Alta usabilidade e tempos de resposta inferiores a 2 segundos.
-- Suporte para versões recentes de Android e iOS.
-- Segurança no armazenamento de dados sensíveis.
-
-
+| ID     | Descrição do Requisito                                                                                        | Tipo        |  Prioridade|
+|--------|---------------------------------------------------------------------------------------------------------------|-------------|------------|
+| RF-001 | O sistema deve ser eficiente, oferecendo tempos de resposta ágeis inferiores a 2 segundos.                    | PERFORMANCE | ALTA       |
+| RF-002 | Suporte para versões recentes de Android e iOS                                                                | COMPATIBILIDADE | ALTA   |
+| RF-003 | Proteger os dados sensíveis dos usuários contra acessos não autorizados                                       | SEGURANÇA   | ALTA       |
+| RF-004 | Garantir que o aplicativo seja fácil de manter e possa crescer conforme necessário                            | ESCALABILIDADE| ALTA     |
 
 ## Considerações de Segurança
 
