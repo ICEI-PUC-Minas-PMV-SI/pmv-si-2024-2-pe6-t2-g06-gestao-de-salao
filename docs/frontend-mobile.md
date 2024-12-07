@@ -66,11 +66,11 @@ O design visual da aplicação foi pensado para proporcionar uma experiência de
 
 O layout do aplicativo foi projetado para ser totalmente responsivo, garantindo uma experiência consistente e intuitiva em dispositivos com diferentes tamanhos de tela, como smartphones e tablets. O foco está em atender às necessidades do usuário sem comprometer a usabilidade e a estética, independentemente do dispositivo utilizado.
 
-####Smartphones:
+#### Smartphones:
 Interface otimizada para telas menores, com foco em navegação simplificada e botões maiores, evitando toques acidentais.
 Elementos críticos, como botões de ação, localizados nas áreas de fácil alcance (thumb-friendly zones).
 
-####Tablets:
+#### Tablets:
 Design ajustado para aproveitar o espaço adicional, com layouts em grade (grid-based) que permitem exibir mais informações de forma organizada.
 Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhorar a leitura visual.
 
