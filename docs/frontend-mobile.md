@@ -38,15 +38,13 @@ Estrutura de Dados e Entidades Principais
 
 Representa tanto clientes quanto funcionários do salão (administradores). Atributos: Id, Nome, Email, Senha, TipoUsuario (cliente ou salão), Telefone, DataCriacao. Relações: Um usuário (cliente) pode ter vários agendamentos; um usuário (administrador) está relacionado a um ou mais salões.
 
-#### Salão:
+**Salão:** Armazena informações sobre o salão de beleza. Atributos: Id, Nome, Endereco, Telefone, HorarioFuncionamento, Descricao, IdAdministrador. Relações: Um salão possui um administrador (usuário do tipo salão) e está vinculado a vários agendamentos.
 
-Armazena informações sobre o salão de beleza. Atributos: Id, Nome, Endereco, Telefone, HorarioFuncionamento, Descricao, IdAdministrador. Relações: Um salão possui um administrador (usuário do tipo salão) e está vinculado a vários agendamentos.
+**Agendamento:** Representa os agendamentos entre clientes e salões. Atributos: Id, DataHora, Status (pendente, confirmado, cancelado), ClienteId, SalaoId, ServicoId. Relações: Um agendamento está vinculado a um cliente (usuário), a um salão e a um serviço específico.  
 
-** Agendamento: ** Representa os agendamentos entre clientes e salões. Atributos: Id, DataHora, Status (pendente, confirmado, cancelado), ClienteId, SalaoId, ServicoId. Relações: Um agendamento está vinculado a um cliente (usuário), a um salão e a um serviço específico.  
+**Serviço:** Contém os tipos de serviços oferecidos pelo salão (ex.: corte de cabelo, manicure). Atributos: Id, Nome, Descricao, Preco, Duracao. Relações: Um serviço pode ser oferecido em vários salões e fazer parte de vários agendamentos.  
 
-** Serviço: ** Contém os tipos de serviços oferecidos pelo salão (ex.: corte de cabelo, manicure). Atributos: Id, Nome, Descricao, Preco, Duracao. Relações: Um serviço pode ser oferecido em vários salões e fazer parte de vários agendamentos.  
-
-** Histórico de Agendamentos: ** Armazena o histórico de agendamentos realizados para auditoria e consultas futuras. Atributos: Id, AgendamentoId, DataAlteracao, StatusAnterior, StatusAtual. Relações: Está associado a um agendamento específico e contém as mudanças de status ao longo do tempo.  
+**Histórico de Agendamentos:** Armazena o histórico de agendamentos realizados para auditoria e consultas futuras. Atributos: Id, AgendamentoId, DataAlteracao, StatusAnterior, StatusAtual. Relações: Está associado a um agendamento específico e contém as mudanças de status ao longo do tempo.  
 
 
 ## Projeto da Interface
