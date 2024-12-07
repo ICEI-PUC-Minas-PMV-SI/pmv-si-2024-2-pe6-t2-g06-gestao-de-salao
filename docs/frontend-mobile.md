@@ -53,7 +53,7 @@ Os wireframes principais incluem:
 
 #### Tela de HomePage:
 
-<img src = "img/tl2.png">
+<img src = "img/hp1.png">
   
 - Tela de Agendamento:
   
