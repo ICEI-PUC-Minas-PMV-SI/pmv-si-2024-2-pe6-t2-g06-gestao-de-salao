@@ -37,32 +37,33 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 - Seção para pesquisa e agendamento de serviços.
 - Seção para pagamento.
 
-### Wireframes
+## Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 
 Os wireframes principais incluem:
 
-#### Tela de Login:
+### Tela de Login:
 
   <img src = "img/tl1.png">
 
   <img src = "img/tl2.png">
   
 
-#### Tela de HomePage:
+### Tela de HomePage:
 
 <img src = "img/hp1.png">
   
-#### Tela de Agendamento:
+### Tela de Agendamento:
 
 <img src = "img/la1.png">
 
 <img src = "img/la2.png">
+
+<img src = "img/pa1.png">
+
   
-#### Tela de Pagamento:
-  
-#### Tela de Listagem de serviços:
+### Tela de Listagem de serviços:
 
 <img src = "img/ls1.png">
 
