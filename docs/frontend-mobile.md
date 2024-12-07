@@ -65,6 +65,7 @@ Os wireframes principais incluem:
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
+O design visual da aplicação foi pensado para proporcionar uma experiência de usuário moderna, atraente e intuitiva, alinhada às tendências contemporâneas de interface e experiência de usuário (UI/UX). As decisões visuais foram cuidadosamente planejadas para criar um ambiente harmônico, acessível e funcional, com base nos seguintes aspectos:
 
 - Paleta de cores: Tons de laranja (#FF7043) e cinza claro para destacar elementos principais.
 - Tipografia: Fontes modernas como Roboto para legibilidade.
