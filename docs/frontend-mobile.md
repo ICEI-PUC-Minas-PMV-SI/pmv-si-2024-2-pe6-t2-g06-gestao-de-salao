@@ -90,15 +90,12 @@ Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhora
 
 O aplicativo foi projetado para atender às principais necessidades dos usuários e dos estabelecimentos parceiros, integrando funcionalidades que oferecem praticidade, segurança e eficiência. A seguir, são detalhadas os requisitos funcionais mapeados:
 
-##### Cadastro de usuários
-Permitir que novos usuários se registrem na plataforma de forma simples e rápida.
-##### Login e autenticação.
-Garantir acesso seguro aos usuários já cadastrados.
-##### Visualização de serviços disponíveis.
-Permitir que os usuários explorem os serviços oferecidos pelos salões de beleza parceiros.
-##### Agendamento de serviços.
-Facilitar o agendamento de serviços pelos usuários.
-
+| ID     | Descrição do Requisito                                                                                        | Tipo        |  Prioridade|
+|--------|---------------------------------------------------------------------------------------------------------------|-------------|------------|
+| RF-001 | Permitir que novos usuários se registrem na plataforma de forma simples e rápida.                             | BACKEND     | ALTA       |
+| RF-002 | Garantir acesso seguro aos usuários já cadastrados                                                            | BACKEND     | ALTA       |
+| RF-003 | Permitir que os usuários explorem os serviços oferecidos pelos salões de beleza parceiros                     | UX          | ALTA       |
+| RF-004 | O sistema deve permitir agendamento de serviços para usuário cadastrados                                      | BACKEND     | ALTA       |
 
 ## Requisitos Não Funcionais
 
@@ -111,6 +108,7 @@ Facilitar o agendamento de serviços pelos usuários.
 ## Considerações de Segurança
 
 A segurança é um aspecto essencial no desenvolvimento de aplicações, especialmente em sistemas que lidam com dados sensíveis e informações pessoais dos usuários. O aplicativo foi projetado com uma abordagem de "Security by Design", onde práticas e tecnologias de segurança são integradas desde as primeiras fases do desenvolvimento. Abaixo, são detalhadas as principais medidas adotadas para garantir a proteção do sistema, dos dados dos usuários e a conformidade com regulamentações:
+
 #### Autenticação e Controle de Sessão:
 - Implementação de autenticação baseada em JSON Web Tokens (JWT), garantindo que apenas usuários autenticados possam acessar recursos protegidos.
 - Os tokens incluem tempo de expiração e são assinados com chaves criptográficas robustas para evitar falsificações ou reutilizações.
