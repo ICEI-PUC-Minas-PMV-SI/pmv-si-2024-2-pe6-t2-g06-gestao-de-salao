@@ -44,7 +44,7 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 Os wireframes principais incluem:
 
 - Tela de Login:
-- 
+
   <img src = "img/tl1.jpg">
 
   <img src = "img/tl2.jpg">
