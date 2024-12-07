@@ -99,6 +99,8 @@ O aplicativo foi projetado para atender às principais necessidades dos usuário
 
 ## Requisitos Não Funcionais
 
+O sistema foi projetado para garantir alta eficiência, compatibilidade, segurança e escalabilidade, atendendo às expectativas de qualidade e experiência dos usuários. A seguir, são apresentados os requisitos não funcionais definidos para a aplicação:
+
 | ID     | Descrição do Requisito                                                                                        | Tipo        |  Prioridade|
 |--------|---------------------------------------------------------------------------------------------------------------|-------------|------------|
 | RF-001 | O sistema deve ser eficiente, oferecendo tempos de resposta ágeis inferiores a 2 segundos.                    | PERFORMANCE | ALTA       |
