@@ -1,6 +1,4 @@
 # Front-end Móvel
-[Inclua uma breve descrição do projeto e seus objetivos.]
-
 
 O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência prática e eficiente para clientes e salões de beleza, facilitando o agendamento de serviços, pagamentos e check-ins digitais por meio de uma aplicação móvel. A aplicação visa atender às necessidades do público-alvo conectado, oferecendo uma interface intuitiva e moderna para dispositivos Android e iOS. Os objetivos principais do projeto são:
 - Facilitar a busca por serviços e profissionais com base em diferentes critérios.
@@ -11,8 +9,6 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
-
 
 - Front-end: React Native
 - Gerenciamento de Estado: Redux
@@ -22,8 +18,6 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 - Testes: Jest e React Native Testing Library
 
 ## Arquitetura
-[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
-
 
 A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel):
 
@@ -35,8 +29,6 @@ A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
 ## Projeto da Interface
-[Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
-
 
 A interface do aplicativo terá foco na simplicidade e clareza. Os principais elementos incluem:
 
@@ -63,7 +55,6 @@ Os wireframes principais incluem:
   
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
 O design visual da aplicação foi pensado para proporcionar uma experiência de usuário moderna, atraente e intuitiva, alinhada às tendências contemporâneas de interface e experiência de usuário (UI/UX). As decisões visuais foram cuidadosamente planejadas para criar um ambiente harmônico, acessível e funcional, com base nos seguintes aspectos:
 
@@ -72,10 +63,16 @@ O design visual da aplicação foi pensado para proporcionar uma experiência de
 - Ícones: Uso de biblioteca como Material Icons para consistência visual.
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
+O layout do aplicativo foi projetado para ser totalmente responsivo, garantindo uma experiência consistente e intuitiva em dispositivos com diferentes tamanhos de tela, como smartphones e tablets. O foco está em atender às necessidades do usuário sem comprometer a usabilidade e a estética, independentemente do dispositivo utilizado.
 
-O layout será responsivo para diferentes tamanhos de tela (smartphones e tablets), utilizando o sistema de flexbox do React Native e media queries para estilização específica de dispositivos.
+####Smartphones:
+Interface otimizada para telas menores, com foco em navegação simplificada e botões maiores, evitando toques acidentais.
+Elementos críticos, como botões de ação, localizados nas áreas de fácil alcance (thumb-friendly zones).
+
+####Tablets:
+Design ajustado para aproveitar o espaço adicional, com layouts em grade (grid-based) que permitem exibir mais informações de forma organizada.
+Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhorar a leitura visual.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
