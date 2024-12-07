@@ -60,7 +60,7 @@ Os wireframes principais incluem:
 
 <img src = "img/la2.png">
 
-<img src = "img/pa1.png">
+<img src = "img/pd1.png">
 
   
 ### Tela de Listagem de serviços:
