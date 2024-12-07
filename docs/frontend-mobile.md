@@ -19,11 +19,15 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 
 ## Arquitetura
 
-A arquitetura da aplicação será baseada no padrão MVVM (Model-View-ViewModel):
+Para garantir uma organização robusta, manutenibilidade e escalabilidade na aplicação, adotaremos o padrão de arquitetura MVVM (Model-View-ViewModel). Essa abordagem divide as responsabilidades em camadas bem definidas, promovendo uma separação clara entre interface, lógica de negócios e manipulação de dados.
 
-- View: Componentes React Native que representam a interface do usuário.
-- ViewModel: Contém a lógica de negócios e gerencia o estado da aplicação.
-- Model: Representa os dados do domínio e interage diretamente com a API.
+A seguir, detalharemos como cada camada será implementada:
+
+**View:** Componentes desenvolvidos em React Native, responsáveis por apresentar a interface do usuário e capturar interações.
+**ViewModel**: A camada intermediária que concentra a lógica de negócios, gerencia o estado da aplicação e atua como um elo entre a View e o Model.
+**Model:** Representa os dados do domínio e suas operações, além de encapsular a comunicação com a API para acesso e manipulação das informações.
+
+Essa arquitetura proporciona uma estrutura modular e escalável, ideal para projetos que demandam evolução constante e manutenção eficiente.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
