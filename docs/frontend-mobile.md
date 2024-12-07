@@ -104,24 +104,6 @@ Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhora
 ## Fluxo de Dados
 
 <img src = "img/fluxoMiro.png">
-O fluxo de dados na aplicação segue uma arquitetura de microserviços, garantindo que cada componente lide de maneira eficiente e independente com suas próprias funções. Abaixo está uma descrição simplificada do fluxo:
-
-Solicitações do Usuário: O cliente (usuário final) acessa a interface web através do navegador, onde pode realizar ações como criar uma conta, agendar um serviço, ou gerenciar seus agendamentos.
-
-Front-end (React TS): A interface web em React TS recebe as interações dos usuários e se comunica com o back-end para enviar ou receber dados via API.
-
-API Gateway: Todas as solicitações do front-end passam pelo API Gateway, que gerencia as rotas e distribui as requisições aos microserviços corretos, garantindo segurança e escalabilidade.
-
-Microserviços: Cada microserviço é responsável por uma função específica, como:
-
-Autenticação: valida as credenciais dos usuários.
-Agenda: gerencia agendamentos de serviços.
-Clientes: gerencia informações dos clientes e o histórico de serviços.
-Banco de Dados (SQL Server): Os dados são armazenados de forma centralizada no Microsoft SQL Server, onde são salvos e recuperados conforme necessário, incluindo informações de usuários, agendamentos, e histórico de serviços.
-
-Resposta ao Cliente: Após o processamento da solicitação, o back-end retorna os dados para o front-end através do API Gateway, onde são exibidos ao usuário na interface.
-
-Esse fluxo permite uma comunicação organizada e eficiente, garantindo que cada ação seja rapidamente processada e retornada ao usuário.
 
 ## Requisitos Funcionais
 
