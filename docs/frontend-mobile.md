@@ -6,7 +6,7 @@ O projeto "Gestão de Salão" tem como objetivo proporcionar uma experiência pr
 - Fornecer informações detalhadas sobre os serviços e agendamentos.
 - Oferecer uma interface amigável e acessível em diversos dispositivos móveis.
 
-(Repositório: 
+(Repositório: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe6-t2-g06-gestao-de-salao-mobile-ui.git)
 
 ## Tecnologias Utilizadas
 
