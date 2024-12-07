@@ -30,7 +30,30 @@ A seguir, detalharemos como cada camada será implementada:
 Essa arquitetura proporciona uma estrutura modular e escalável, ideal para projetos que demandam evolução constante e manutenção eficiente.
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+A modelagem da aplicação foi estruturada com o objetivo de organizar os dados e refletir as principais entidades envolvidas no processo de agendamentos e gerenciamento de salões de beleza. Abaixo, os detalhes da estrutura de dados e as entidades principais:
+
+Estrutura de Dados e Entidades Principais
+
+#### Usuário:
+
+Representa tanto clientes quanto funcionários do salão (administradores). Atributos: Id, Nome, Email, Senha, TipoUsuario (cliente ou salão), Telefone, DataCriacao. Relações: Um usuário (cliente) pode ter vários agendamentos; um usuário (administrador) está relacionado a um ou mais salões.
+
+#### Salão:
+
+Armazena informações sobre o salão de beleza. Atributos: Id, Nome, Endereco, Telefone, HorarioFuncionamento, Descricao, IdAdministrador. Relações: Um salão possui um administrador (usuário do tipo salão) e está vinculado a vários agendamentos.
+
+#### Agendamento:
+
+Representa os agendamentos entre clientes e salões. Atributos: Id, DataHora, Status (pendente, confirmado, cancelado), ClienteId, SalaoId, ServicoId. Relações: Um agendamento está vinculado a um cliente (usuário), a um salão e a um serviço específico.
+
+#### Serviço:
+
+Contém os tipos de serviços oferecidos pelo salão (ex.: corte de cabelo, manicure). Atributos: Id, Nome, Descricao, Preco, Duracao. Relações: Um serviço pode ser oferecido em vários salões e fazer parte de vários agendamentos.
+
+#### Histórico de Agendamentos:
+
+Armazena o histórico de agendamentos realizados para auditoria e consultas futuras. Atributos: Id, AgendamentoId, DataAlteracao, StatusAnterior, StatusAtual. Relações: Está associado a um agendamento específico e contém as mudanças de status ao longo do tempo.
+
 
 ## Projeto da Interface
 
