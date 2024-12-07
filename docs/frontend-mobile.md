@@ -45,13 +45,15 @@ Os wireframes principais incluem:
 
 - Tela de Login:
 
-  <img src = "img/tl1.jpg">
+  <img src = "img/tl1.png">
 
-  <img src = "img/tl2.jpg">
+  <img src = "img/tl2.png">
   
 - Tela de Cadastro:
 
 - Tela de HomePage:
+
+<img src = "img/tl2.png">
   
 - Tela de Agendamento:
   
