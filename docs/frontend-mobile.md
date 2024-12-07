@@ -58,19 +58,19 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 
 Os wireframes principais incluem:
 
-#### Tela de Login:
+### Tela de Login:
 
   <img src = "img/tl1.png">
 
   <img src = "img/tl2.png">
   
 
-#### Tela de HomePage:
+### Tela de HomePage:
 
 <img src = "img/hp1.png">
 
   
-#### Tela de Agendamento:
+### Tela de Agendamento:
 
 <img src = "img/la1.png">
 
@@ -79,48 +79,43 @@ Os wireframes principais incluem:
 <img src = "img/pd1.png">
 
   
-#### Tela de Listagem de serviços:
+### Tela de Listagem de serviços:
 
 <img src = "img/ls1.png">
 
 <img src = "img/ls2.png">
   
 
-### Design Visual
+## Design Visual
 
 O design visual da aplicação foi pensado para proporcionar uma experiência de usuário moderna, atraente e intuitiva, alinhada às tendências contemporâneas de interface e experiência de usuário (UI/UX). As decisões visuais foram cuidadosamente planejadas para criar um ambiente harmônico, acessível e funcional, com base nos seguintes aspectos:
 
-- Paleta de cores: Tons de laranja (#FF7043) e cinza claro para destacar elementos principais.
-- Tipografia: Fontes modernas como Roboto para legibilidade.
-- Ícones: Uso de biblioteca como Material Icons para consistência visual.
+**- Paleta de cores:** Tons de laranja (#FF7043) e cinza claro para destacar elementos principais.
+**- Tipografia:** Fontes modernas como Roboto para legibilidade.
+**- Ícones:** Uso de biblioteca como Material Icons para consistência visual.
 
-### Layout Responsivo
+## Layout Responsivo
 
 O layout do aplicativo foi projetado para ser totalmente responsivo, garantindo uma experiência consistente e intuitiva em dispositivos com diferentes tamanhos de tela, como smartphones e tablets. O foco está em atender às necessidades do usuário sem comprometer a usabilidade e a estética, independentemente do dispositivo utilizado.
 
-#### Smartphones:
-Interface otimizada para telas menores, com foco em navegação simplificada e botões maiores, evitando toques acidentais.
-Elementos críticos, como botões de ação, localizados nas áreas de fácil alcance (thumb-friendly zones).
+**Smartphones:** Interface otimizada para telas menores, com foco em navegação simplificada e botões maiores, evitando toques acidentais.  
+Elementos críticos, como botões de ação, localizados nas áreas de fácil alcance (thumb-friendly zones).  
 
-#### Tablets:
-Design ajustado para aproveitar o espaço adicional, com layouts em grade (grid-based) que permitem exibir mais informações de forma organizada.
-Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhorar a leitura visual.
+**Tablets:** Design ajustado para aproveitar o espaço adicional, com layouts em grade (grid-based) que permitem exibir mais informações de forma organizada.  
+Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhorar a leitura visual.  
 
-### Interações do Usuário
+## Interações do Usuário
 A experiência do usuário no aplicativo "Gestão de Salão" foi projetada para ser fluida, intuitiva e visualmente atrativa. Para isso, foram incorporados elementos interativos e de feedback visual que aprimoram a navegação e a usabilidade.
 
-#### Animações:
-Feedback visual em cliques e interações, como mudança de cor ou escala dos botões ao toque, para indicar ações concluídas.
-Animações suaves para a exibição e ocultação de elementos, como modais de confirmação e notificações de sucesso.
+**Animações:** Feedback visual em cliques e interações, como mudança de cor ou escala dos botões ao toque, para indicar ações concluídas.  
+Animações suaves para a exibição e ocultação de elementos, como modais de confirmação e notificações de sucesso.  
 
-#### Transições:
-Navegação fluida entre as páginas utilizando a biblioteca React Navigation, com transições animadas que tornam a experiência mais natural.
-Aplicação de efeitos como "fade-in" ou "slide" ao abrir novas telas ou retornar à página anterior.
+**Transições:** Navegação fluida entre as páginas utilizando a biblioteca React Navigation, com transições animadas que tornam a experiência mais natural.  
+Aplicação de efeitos como "fade-in" ou "slide" ao abrir novas telas ou retornar à página anterior.  
 
-#### Gestos:
-Função de swipe para excluir ou editar agendamentos diretamente na lista, oferecendo praticidade ao usuário.
-Navegação intuitiva por meio de gestos, como deslizar para o lado para retornar ou avançar entre as telas.
-Essas interações foram projetadas para proporcionar uma experiência envolvente e alinhada às expectativas do público-alvo, reforçando a modernidade e o profissionalismo da aplicação.
+**Gestos:** Função de swipe para excluir ou editar agendamentos diretamente na lista, oferecendo praticidade ao usuário.  
+Navegação intuitiva por meio de gestos, como deslizar para o lado para retornar ou avançar entre as telas.  
+Essas interações foram projetadas para proporcionar uma experiência envolvente e alinhada às expectativas do público-alvo, reforçando a modernidade e o profissionalismo da aplicação.  
 
 ## Fluxo de Dados
 
