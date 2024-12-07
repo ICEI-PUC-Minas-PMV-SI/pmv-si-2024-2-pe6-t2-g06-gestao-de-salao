@@ -60,6 +60,8 @@ Os wireframes principais incluem:
 - Tela de Pagamento:
   
 - Tela de Listagem de serviços:
+
+<img src = "img/ls1.png">
   
 
 ### Design Visual
