@@ -43,18 +43,19 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 
 Os wireframes principais incluem:
 
-### Tela de Login:
+#### Tela de Login:
 
   <img src = "img/tl1.png">
 
   <img src = "img/tl2.png">
   
 
-### Tela de HomePage:
+#### Tela de HomePage:
 
 <img src = "img/hp1.png">
+
   
-### Tela de Agendamento:
+#### Tela de Agendamento:
 
 <img src = "img/la1.png">
 
@@ -63,7 +64,7 @@ Os wireframes principais incluem:
 <img src = "img/pd1.png">
 
   
-### Tela de Listagem de serviços:
+#### Tela de Listagem de serviços:
 
 <img src = "img/ls1.png">
 
