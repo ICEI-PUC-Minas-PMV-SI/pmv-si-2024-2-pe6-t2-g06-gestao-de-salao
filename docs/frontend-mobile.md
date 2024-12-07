@@ -111,14 +111,14 @@ O layout será responsivo para diferentes tamanhos de tela (smartphones e tablet
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
 
 A segurança é um aspecto essencial no desenvolvimento de aplicações, especialmente em sistemas que lidam com dados sensíveis e informações pessoais dos usuários. O aplicativo foi projetado com uma abordagem de "Security by Design", onde práticas e tecnologias de segurança são integradas desde as primeiras fases do desenvolvimento. Abaixo, são detalhadas as principais medidas adotadas para garantir a proteção do sistema, dos dados dos usuários e a conformidade com regulamentações:
-- Autenticação e Controle de Sessão:
-Implementação de autenticação baseada em JSON Web Tokens (JWT), garantindo que apenas usuários autenticados possam acessar recursos protegidos.
-Os tokens incluem tempo de expiração e são assinados com chaves criptográficas robustas para evitar falsificações ou reutilizações.
-Mecanismos de logout ativo e invalidação de tokens comprometidos, aumentando a proteção contra sequestro de sessões.
+#### Autenticação e Controle de Sessão:
+- Implementação de autenticação baseada em JSON Web Tokens (JWT), garantindo que apenas usuários autenticados possam acessar recursos protegidos.
+- Os tokens incluem tempo de expiração e são assinados com chaves criptográficas robustas para evitar falsificações ou reutilizações.
+- Mecanismos de logout ativo e invalidação de tokens comprometidos, aumentando a proteção contra sequestro de sessões.
   
-- Comunicação segura com o backend por meio de HTTPS:
-Todas as comunicações entre o cliente e o servidor utilizam o protocolo HTTPS, que emprega certificados SSL/TLS para garantir criptografia ponta a ponta.
-Reforço da segurança contra ataques de "man-in-the-middle" (MITM) por meio de validação rigorosa de certificados e uso de HSTS (HTTP Strict Transport Security).
+#### Comunicação segura com o backend por meio de HTTPS:
+- Todas as comunicações entre o cliente e o servidor utilizam o protocolo HTTPS, que emprega certificados SSL/TLS para garantir criptografia ponta a ponta.
+- Reforço da segurança contra ataques de "man-in-the-middle" (MITM) por meio de validação rigorosa de certificados e uso de HSTS (HTTP Strict Transport Security).
 
 ## Implantação
 
