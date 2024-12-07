@@ -49,7 +49,6 @@ Os wireframes principais incluem:
 
   <img src = "img/tl2.png">
   
-- Tela de Cadastro:
 
 #### Tela de HomePage:
 
@@ -59,9 +58,11 @@ Os wireframes principais incluem:
   
 - Tela de Pagamento:
   
-- Tela de Listagem de serviços:
+####Tela de Listagem de serviços:
 
 <img src = "img/ls1.png">
+
+<img src = "img/ls2.png">
   
 
 ### Design Visual
