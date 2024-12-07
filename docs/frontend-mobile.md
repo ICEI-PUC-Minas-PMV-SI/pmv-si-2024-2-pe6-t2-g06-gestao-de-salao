@@ -103,11 +103,6 @@ Ajustes em margens e espaçamentos para evitar desperdício de espaço e melhora
 
 ## Fluxo de Dados
 
-### Diagrama de sequencia:
-#### Exemplo do fluxo de dados - Agendamento
-<img src = "img/fluxoAgendamentoMiro.png">
-
-### Fluxo geral da aplicação.
 <img src = "img/fluxoMiro.png">
 O fluxo de dados na aplicação segue uma arquitetura de microserviços, garantindo que cada componente lide de maneira eficiente e independente com suas próprias funções. Abaixo está uma descrição simplificada do fluxo:
 
