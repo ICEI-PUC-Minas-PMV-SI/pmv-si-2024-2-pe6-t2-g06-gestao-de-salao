@@ -38,8 +38,6 @@ A interface do aplicativo terá foco na simplicidade e clareza. Os principais el
 - Seção para pagamento.
 
 ## Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
-
 
 Os wireframes principais incluem:
 
