@@ -34,9 +34,7 @@ A modelagem da aplicação foi estruturada com o objetivo de organizar os dados 
 
 Estrutura de Dados e Entidades Principais
 
-#### Usuário:
-
-Representa tanto clientes quanto funcionários do salão (administradores). Atributos: Id, Nome, Email, Senha, TipoUsuario (cliente ou salão), Telefone, DataCriacao. Relações: Um usuário (cliente) pode ter vários agendamentos; um usuário (administrador) está relacionado a um ou mais salões.
+**Usuário:** Representa tanto clientes quanto funcionários do salão (administradores). Atributos: Id, Nome, Email, Senha, TipoUsuario (cliente ou salão), Telefone, DataCriacao. Relações: Um usuário (cliente) pode ter vários agendamentos; um usuário (administrador) está relacionado a um ou mais salões.  
 
 **Salão:** Armazena informações sobre o salão de beleza. Atributos: Id, Nome, Endereco, Telefone, HorarioFuncionamento, Descricao, IdAdministrador. Relações: Um salão possui um administrador (usuário do tipo salão) e está vinculado a vários agendamentos.
 
